@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Origo FAQ Chatbot</title>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+    #chatbot-container {
+      width: 100%;
+      max-width: 400px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+    }
+    #chat-header {
+      background-color: #0078d4;
+      color: white;
+      padding: 15px;
+      border-radius: 8px 8px 0 0;
+      font-weight: bold;
+    }
+    #chatlog {
+      height: 400px;
+      overflow-y: auto;
+      padding: 10px;
+      background: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+    }
+    .message {
+      max-width: 80%;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    .user {
+      align-self: flex-end;
+      background-color: #0078d4;
+      color: white;
+    }
+    .bot {
+      align-self: flex-start;
+      background-color: #e1e1e1;
+      color: black;
+    }
+    #userInput {
+      border: none;
+      border-top: 1px solid #ccc;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 0 0 8px 8px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chatbot-container">
+    <div id="chat-header">Origo FAQ Chatbot</div>
+    <div id="chatlog"></div>
+    <input type="text" id="userInput" placeholder="Ask a question..." />
+  </div>
+
+  <script>
+    let fuse;
+    let faqData = [];
+
+    async function loadData() {
+      const res = await fetch("faq_data.json");
+      faqData = await res.json();
+      fuse = new Fuse(faqData, {
+        keys: ["question"],
+        includeScore: true,
+        threshold: 0.4,
+        distance: 100
+      });
+    }
+
+    loadData();
+
+    const chatlog = document.getElementById("chatlog");
+    const inputBox = document.getElementById("userInput");
+
+    inputBox.addEventListener("keypress", async function(e) {
+      if (e.key === "Enter" && this.value.trim() !== "") {
+        const input = this.value.trim();
+        appendMessage("You", input, "user");
+        this.value = "";
+
+        const results = fuse.search(input);
+        if (results.length > 0) {
+          appendMessage("Bot", results[0].item.answer, "bot");
+        } else {
+          appendMessage("Bot", "❌ Sorry, I couldn't find an answer for that.", "bot");
+        }
+
+        chatlog.scrollTop = chatlog.scrollHeight;
+      }
+    });
+
+    function appendMessage(sender, message, type) {
+      const msg = document.createElement("div");
+      msg.className = `message ${type}`;
+      msg.innerHTML = "<strong>" + sender + ":</strong><br>" + message;
+      chatlog.appendChild(msg);
+    }
+  </script>
+</body>
+</html>
