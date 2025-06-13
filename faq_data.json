@@ -1,0 +1,1646 @@
+[
+  {
+    "question": "Is the costing view available for FTW after Go Live II?",
+    "answer": "No, as this is not in scope for GL2 - the exported Data is always in the predefined order and you have to rearrange the Excel File."
+  },
+  {
+    "question": "When exporting a line sheet to Excel, my pinned columns are always shown in the initial position and not in the pinned position. Is there a way to take over pinned columns in the new position in Excel exports?",
+    "answer": "No, as this is not in scope for GL2 - the exported Data is always in the predefined order and you have to rearrange the Excel File."
+  },
+  {
+    "question": "Is the system recording my list view for the next entry?",
+    "answer": "Yes, even if you havent saved your updates in the bookmarks, you will always land on the last overview screen you had open before you left the application"
+  },
+  {
+    "question": "If I want to, e.g., remove a column out of a personally saved bookmark, do I need to re-create this bookmark?",
+    "answer": "No, you can remove the column, click again on the star icon, click on the edit button next to the bookmark you want to modify and click on saveto save your changes"
+  },
+  {
+    "question": "Filter: I do not see the filter for colorway status (we do have model status: In range, dropped, etc) in both model/article view",
+    "answer": "Colorway status is now called \"Article Status/ Article Lifecycle Status\""
+  },
+  {
+    "question": "Does the export always follow my column/ row logic each time?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Can we export the thumbnails/pictures as well?",
+    "answer": "Not possible for now, but has been added to Post-GL II improvements"
+  },
+  {
+    "question": "What is the maximum number of products that can be exported?",
+    "answer": 5000
+  },
+  {
+    "question": "How can a bookmark be updated?",
+    "answer": "You need to select the bookmark again, click edit and press on save again"
+  },
+  {
+    "question": "We can see some attributes, such as product\nspecialty, sustainability, in Flex but can't find them in Origo",
+    "answer": "You can find Product Specialty in Product Data > Product Details, Project Management section. Sustainability is not part of Golive2 and will be implemented on priority after the golive"
+  },
+  {
+    "question": "Can we enable the filter position manually moved by user? (eg. we prefer season, brands, division in the front always)",
+    "answer": "Theres no possibility to drag and apply filters but as a workaround, you can remove all filters and add them again in the exact order you want to have them"
+  },
+  {
+    "question": "If you want to add now another working number, you need to select all of them to paste them, but I can't add another working number if there is one already in the search",
+    "answer": "You can type it, but you cannot copy & paste another working number"
+  },
+  {
+    "question": "Any limitation for this search function? Number or quantity?",
+    "answer": "The search is limited for 150 working numbers"
+  },
+  {
+    "question": "Sizes will be updated by Marketing in future, right?",
+    "answer": "Correct , MKT will be responsible for size page and sizes. CC Dev needs to maintain the sample size"
+  },
+  {
+    "question": "When will the mass update be available under overview Factories tab for LO/T1 users?",
+    "answer": "Tech team is working heavily on it, is main priority at the moment - it will be provided asap"
+  },
+  {
+    "question": "When one article is not updated for, e.g., Dev name, could it be changed in the article view in the product?",
+    "answer": "Yes, you could switch for article view and update is there"
+  },
+  {
+    "question": "I do not find Factory code/factory name in the filters of product section could you please advise?",
+    "answer": "Factory code and Factory name can be found in the +Factory Overview screen (next to Product and Costing)"
+  },
+  {
+    "question": "By which roles can the color palette be updated?",
+    "answer": "As in Flex/PDM right now (CC Developer)"
+  },
+  {
+    "question": "Can size pages be assigned in linesheet as mass update?",
+    "answer": "That will be done by MP"
+  },
+  {
+    "question": "Where is the seasonal info placed/ where can we see seasonal info in CP?",
+    "answer": "They are maintained in MP by the Marketing colleagues"
+  },
+  {
+    "question": "Does a designer need an ORIGO account or is also possible to show them in the drop down if they don't have an account?",
+    "answer": "You need to have an account and you need to have the designer role assigned to your profile in order to show up in the dropdown"
+  },
+  {
+    "question": "Release to factory is only done after TP upload....? Is this still the case?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Will the system pop up the error message if we create the A fty (which is not the development fty) firstly in system?",
+    "answer": "No, there will be no error message"
+  },
+  {
+    "question": "LT responsibility is on LO side for FTW already now, but SOT was editable for CC DEV, is SOT in the future not available anymore?",
+    "answer": "Correct, because SOT and lead time were almost the same, which is why it was decided to eliminate SOT"
+  },
+  {
+    "question": "For sample factory attribute, it is mentioned in training doc that T1/LO Developer. However, T1 do not have edit right on this Sample Factory during UAT. Will T1 have access right to edit Sample Factory?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is LT seasonal? (as it can vary at the moment from season to season)",
+    "answer": "Yes, it is"
+  },
+  {
+    "question": "In Flex we also have a primary fty, does this also exist in Origo?",
+    "answer": "No, that was a Flex-specific attribute, which is no longer used"
+  },
+  {
+    "question": "Is there any EBR (Early Buy Ready) flag?",
+    "answer": "This flag is longer used so will not be available any more"
+  },
+  {
+    "question": "buy ready is what CWA sign-off in FTW right now, correct. Do we still freeze BOM about 2 weeks earlier?",
+    "answer": "Yes, no change on calendar"
+  },
+  {
+    "question": "What happens in case of a Lead Time Change (e.g. from 60 to 90 days). And do I get informed as a user?",
+    "answer": "In PDC, a new Buy-ready date will be calculated and then displayed in Creation Portal. However, there is no email notification."
+  },
+  {
+    "question": "Can you pls explain again, what is the difference between the rider product and factory in the line sheet?",
+    "answer": "the factory rider shows the factories which are assigned to the corresponding product"
+  },
+  {
+    "question": "Can the factory Developer update factory bom after the leading bom is locked?",
+    "answer": "Yes, the manual lock only applies to the Leading BOM"
+  },
+  {
+    "question": "Who has the user right to lock/unlock leading BOM? CC or LO or T1 supplier?",
+    "answer": "Right now, this is for CC Developer . If the Teams decide this access right can be provided to other roles"
+  },
+  {
+    "question": "What is the permission for each of view option ?",
+    "answer": "Each BOM Viewer has access to all system pre-defined view and it is up to the user to select the view"
+  },
+  {
+    "question": "What view is recommended for T1 to create and update BOM? generic view or development view",
+    "answer": "Sourcing View: The Sourcing View has been defined by Sourcing Key users for the purpose to create and work on BOMs"
+  },
+  {
+    "question": "How is creation portal 3D BOM connected with ORIGO BOM? Still entered manually? When will both systems be linked/married?",
+    "answer": "There is no timeline yet. First we need to complete all functions and move everything from Flex/PDM to Creation Portal."
+  },
+  {
+    "question": "Can any attribute be changed in the factory BOM when the leading BOM is locked or are there limitations?",
+    "answer": "Like in PDM today, only the Factory specific attributes can be modified like local sourcing allowed materials, Production UOM, Yield, Yield Eff..."
+  },
+  {
+    "question": "When the columns are \"unsorted\", are they automatically sorted by part group number?",
+    "answer": "The lines are sorted by Part Group followed by Part ID after save . If no Part Group is entered then it is sorted by Part ID"
+  },
+  {
+    "question": "How many personal views can be created?",
+    "answer": "There is no limitation, but we recommend to focus on the really relevant views for your daily work"
+  },
+  {
+    "question": "Can personal view be seen for all parties?",
+    "answer": "No, personal views is only visible for the person who has created the view"
+  },
+  {
+    "question": "Is the custom view kept if we switch to another working number? I mean that custom view is available to another working nmbr as well?",
+    "answer": "Yes! We have requested that the system should remember that any view we have used last should be remembered even if I switch the working number."
+  },
+  {
+    "question": "For this topic there is another training manual for A&G only?",
+    "answer": "Yes! There are seperate versions and the manual for A&G has two pages more to cover a special use case regarding socks"
+  },
+  {
+    "question": "Can we move up and down single parts?",
+    "answer": "Yes, that can be done with the sorting. However, as soon as the part group number is added, this will always determine the order"
+  },
+  {
+    "question": "Greyed-out \"material inactive\" means they are inactive for that specific season we are creating BOM for? Or does it mean that this material is obselete for no more use?",
+    "answer": "If a material is only not available for certain seasons, then it will be removed from the toolbox. The yellow triangle indicates inactive. The red box indicates \"not in the toolbox\". Neither case would be allowed to be selected."
+  },
+  {
+    "question": "Can I enter a material ref no, and change the T2 suppier at a later stage?",
+    "answer": "Yes, by reselecting the material with the other T2."
+  },
+  {
+    "question": "Could you share some working # with empty BOM for training?",
+    "answer": "You can try this working no# S20HKW13XK1EI1P"
+  },
+  {
+    "question": "Inactive red toolbox here is actually means inactive Supplier, not inactive material LCS, is it correct?",
+    "answer": "Please see the discription in the Training Manual of the Leading BOM and you can see the right indication always when you mouse hover over the icon. It indentifies the meaning of the icon.\nRed Toolbox stands for Materials which are NOT in toolbox and\norange trinangle stands for: Material with inactive suppliers\nThe Toolbox icon has nothing to do with LifeCycle."
+  },
+  {
+    "question": "Can main material flag leave blank for those \"NO\"?",
+    "answer": "Yes, you only have to set the flag to the Main Material with YES and Yes will be indicated for all Parts that belong to the flagged PartGroup Number.\nNO = BLANK as a value. Flag can be set to NO but blank is o.k. as well."
+  },
+  {
+    "question": "If dev. needs to update something in the BOM, will always use leading BOM when it's e.g. different material ref# or need to update all fty BOMS?",
+    "answer": "With the Leading BOM Concept you should alwasy update the Leading BOM and the updates are valide for all Sources. Excuse is update on Factory BOM for locally sourced Material / Supplier (Seasonal Attributes)"
+  },
+  {
+    "question": "In case part group# change with BOM creation logic for example different color and for example prepared for print,,, In this case Does T1 have to go every time to CC developer to update TP with part group # ? is that align with CC developers",
+    "answer": "The TechPack should be in Sync with the BOM so someone has to update the TP Data if needed. Part Group# can be choosen form pulldown menu and is only mandatory for PGN 10 = Main Material. BOM Creator can use PGNs of the TechPack and can keep the logic as it was used in former systems."
+  },
+  {
+    "question": "In Flex we added \"Prepare for Print P4P\" as color and add actual color in \"Remarks\" - this is obsolete now, right?",
+    "answer": "Prepare for print tick you still need if you print on dyed material; the color P4P is white and you wuld print your complete base colour as well"
+  },
+  {
+    "question": "What is the maximum amount of colors that can be in one MLM if the ref. is created as multicolor?",
+    "answer": "There is no limitation, but you should stick to the most important ones to keep the BOM short"
+  },
+  {
+    "question": "When I have ticked \"to not touch\" yes (in leading BOM), is the material supplier blocked and not possible to update in the factory BOM?",
+    "answer": "The \"Do not touch\" button was mainly created for the mass-update coming from sourcing so that they are not able to overwrite. For manual changes it is still possible, but we need to remember that we need to update all the parts which need to match"
+  },
+  {
+    "question": "Why could this different T2/fabric width not re- calculate yield same as done in creation portal costing?",
+    "answer": "If the material supplier is changed the cost relevant info will be gone as the marker must be reproduced accordingly to the new supplier and their marker"
+  },
+  {
+    "question": "Is there a remarks or additional comments section where T'1 can add some remarks as currently available in flex?",
+    "answer": "Yes, there is the T1 remarks field"
+  },
+  {
+    "question": "If Price oVR is done there will be a comment mentioned in price remarks, right?",
+    "answer": "The reason should be commented in the T1 remarks field."
+  },
+  {
+    "question": "Is the T1 remarks field mandatory and sending alert or validation issue in case not filled?",
+    "answer": "No, the Remark fields (e.g Part Remark, T1 Remark) are additional fields for information but they are not mandatory to be filled. However, for clarification and transprency, it is highly recommended and requested to write a T1 Remark, once any price, CIF or Loss get overwritten."
+  },
+  {
+    "question": "Is there a dummy price ($100) as in FLEX to not forget the overwrite?",
+    "answer": "Yes, just as in Flex the 100$ are as well in CP dummy prices and need to be corrected/overwritten accordingly"
+  },
+  {
+    "question": "Which BOM needs to be checked first - Leading or Factory BOM?",
+    "answer": "That depends on what you are responsible for; if you are the BOM Creator, you are in charge of the Leading BOM and are able to maintain the Leading BOM. If you are in charge of the Factory BOM to update yield and all the costing relevant Header Attributes you are working on the Factory BOM as these factory specific Attributes are NOT available on the Leading BOM and must be done directly on the Factory BOMs."
+  },
+  {
+    "question": "Manual lock/unlock of BOM - is that mandatory?",
+    "answer": "No but it is recommended to be done for each of the milestones"
+  },
+  {
+    "question": "If we rename a part is it linked to the article only?",
+    "answer": "Parts are always model specific. Only the color information is article specific"
+  },
+  {
+    "question": "Do we have a separate timeline from when the BOM part template must be correctly applied? shouldn't be any styles which already have been written/created in Flex?",
+    "answer": "There is a hybrid approach that is recommended by Sourcing. The list of effected Styles is visible in the Part Template Training Manual APP and A&G. BUT it is recommended to start BOM Creation by using pre-defined Part Name per BOM LIne from the Part Templates as soon as possible because only then you have the advantage of using functions like BOM COMPARE or BLIND COPY!"
+  },
+  {
+    "question": "Left & right part assembly is defined from wearer point of view, right?",
+    "answer": "Yes, it is the same logic as today (from wearer's point of view)"
+  },
+  {
+    "question": "Since post GL2 some attributes will still be on Flex, does that mean we need to create the source on both Flex and CP?",
+    "answer": "For BOM, everything is available in Creation Portal"
+  },
+  {
+    "question": "at present in Flex for Dual styles once a source is created we have an Initialize BOM option which helps auto create the BOM page, brings in the AD, sizing and AI files. In CP do we have any such option ?",
+    "answer": "No, Tech Packs / Design Packs are not in scope of Go Live II. Nevertheless through the Leading BOM concept the BOMS are auto created for for all assigned factories and only the Factory BOM attributes need to be filled"
+  },
+  {
+    "question": "There is no part ID in migrated BOM's correct?",
+    "answer": "For the migrated BOMs we will have special IDs which clearly identifies the migrated parts"
+  },
+  {
+    "question": "If single part ID's are updated in the part template and e.g. deleted, will they stay in the BOM's they've already been added to?",
+    "answer": "The part template is not published yet. With Go Live2, it will be published and there will be no further changes to Part IDs in the near future."
+  },
+  {
+    "question": "We have a lot of carry over styles which will not change in the next seasons. Is there any procedure for carry overs- e.g. date when we should not use migrated BOMs any more?",
+    "answer": "As soon as the season is finished, the migrated BOM is done"
+  },
+  {
+    "question": "Is it possible to update/split the part groups again? e.g. late added color blocked article?",
+    "answer": "Yes, you can assign every Part Name / BOM Line to a PartGroupNumber => the grouping can be rearranged according to changes"
+  },
+  {
+    "question": "How about \"pantone XXX\" special colour code? Is available as well?",
+    "answer": "Yes, pantone XXX is open as well"
+  },
+  {
+    "question": "For future data analysis, it would be better to not individualize too often the Part names and rather use the Part remark to specify details",
+    "answer": "This is definately right. Please note that we have a very high amount of pre-defined Part Names available in the Part Template that cover the most used Parts. Only if there is no pre-defined Part Name available there should be a rewritable Part Name used."
+  },
+  {
+    "question": "So yield under Trim for Embroidery is empty then?",
+    "answer": "This is done by the Costing and the Material team and it is costed only once"
+  },
+  {
+    "question": "How does the BOM know that I want to change the label only so I don't need a change request? I.e., does the \"Edit\" button still work in buy-ready?",
+    "answer": "Yes, for APP and A&G the Edit button on the Live BOM is always active and visible - But specific BOM functions / sections are frozen for updates. Labels can always be updated - even without creating a Change Request."
+  },
+  {
+    "question": "Could one article belong to 2 different article groups?",
+    "answer": "No, but articles can be moved between article groups"
+  },
+  {
+    "question": "Why is the name mentioned in capital letters once and in the selection with small letters?",
+    "answer": "That depends on the way you type the name into the search field"
+  },
+  {
+    "question": "I have one general concern here, when you change part group#, understood it changes in both seasons, But Now an additional work has to be done by both T1 & CCDA to get both tech pack and BOM aligned on change part group# on tech pack in both seasons",
+    "answer": "This is a process question. The BOM info should always be alined with the TechPack info as it is today in Flex as well - As design is giving Part Number info already in the Handover, the Development Team can just take the info as base for the BOM Cration. The most important Material is the Main Material as PartGroupNumber 10 and that is normally the case."
+  },
+  {
+    "question": "It is not possible to delete a group again, right?",
+    "answer": "Yes, that is correct. But we'll have an improvement that allows you to hide it"
+  },
+  {
+    "question": "Is my understanding correct that any change in BOM(leading/factory) in a CO season will never reflect to past? If it reflects, in which cases?",
+    "answer": "Yes, your understanding is correct. The only exception is adding part (non seasonal) will be added in a CO season it is added from Initial season onwards, but adding the material (seasonal) will be only from C/O season onwards and will be not applied to inital season"
+  },
+  {
+    "question": "Can this be used as well for white and grey down filling?",
+    "answer": "yes - if it makes sense to differentiate these 2 elements"
+  },
+  {
+    "question": "what about different waistband elastic height for different garment sizes? Have 3 diff. trim ref# and cost sheets per size group anyway",
+    "answer": "For size reasons only, you would indicate your sample size in the part and you would put the heights for the different sizes in the remarks. We need this from a sustainability perspective to correctly calculate the weight"
+  },
+  {
+    "question": "Is the 'clone' function the same as we had it in PDM?",
+    "answer": "yes, this is somehow group articles by using clone materialway function in PDM , but more restrictive what can be changed to follow the data quality guidelines"
+  },
+  {
+    "question": "if we have lined / non-lined possible for swim, why can't we have that as general allowed for all BU's?",
+    "answer": "It is okay to use this use case as a template for other use cases that have similar guidelines (i.e. tennis shorts with or without lining)"
+  },
+  {
+    "question": "if an item is not on a BOM line but only on part remark, will it be included in dl/ forecasting for T2?",
+    "answer": "No it is not included because you don't need it for your prototype and suppliers for production will transfer it to their order system."
+  },
+  {
+    "question": "Where should the new yield consumption of pno10 for MGH/DGH articles be entered? If I have different yield for?",
+    "answer": "The yield consumption of the Variation should be entered in the 1st line of the effected PartGroup# (with light blue background) in the Factory BOM as well. => the Calculation of the Cost is per line with the price of the Variation Material/Trim etc."
+  },
+  {
+    "question": "Will the Article always move inbetween Article Groups as previously entered no matter how often you change it?",
+    "answer": "Yes, if the Article is rearranged in its Default Article Groups again it will find back to the place it was placed before it was moved to an additional Article Group."
+  },
+  {
+    "question": "If I create a variation, put all information for heather and then move it back to default group and remove that variation, how would the updated main material information be shown under the default group line?",
+    "answer": "The Article will be shown under the default group again and adopts the actual Material Ref# and Supplier of the Default Group. Only the Color Name should be moved to Default Group as well."
+  },
+  {
+    "question": "So any seasonal changes/variations are done in FTY BOM only, right? Never in leading BOM of a c/o??",
+    "answer": "No - it depends on the variation type where the Variation is located: on Factory BOM you can change Seasonal Attributes like Material or Supplier - these Attributes can be overwritten by the T1.\nAll Changes that will affect the Leading BOM and change the structure for all Seasons and Sourced like adding a Part, Changing a Color (look at List of Non-Seasonal Attributes) the Change must be done on the Leading BOM. If the change is not valid from the initial Season onwards there the newly added lines stay empty for the initial season and is filled with content from that season onwards where it was needed."
+  },
+  {
+    "question": "Has anything changed compared to BOM Variations befroe Creatioon Portal",
+    "answer": "Nothing has changed in terms of guidelines. However, the BOM and its functionalities have been improved and are now way easier to handle/work with"
+  },
+  {
+    "question": "Is it correct that Seasonal Variations only apply after buy ready state?",
+    "answer": "Sesaonal Variations after buy ready, for carry over articles"
+  },
+  {
+    "question": "Can I see material changes and factory changes at the same time?",
+    "answer": "You can see it in the same model, but you constantly have to switch between Material and Factory"
+  },
+  {
+    "question": "How many BOM's can be compared at the same time?",
+    "answer": "Two"
+  },
+  {
+    "question": "Does that mean, that the BOM copy function is not existing yet?",
+    "answer": "The copy function is already very far in its development and the tech team is working on finishing it until Go-Live II"
+  },
+  {
+    "question": "Only thing which should not work on BOM copy is to copy a migrated BOM into a new BOM, right?",
+    "answer": "You are able to copy the migrated BOM data into a new style - system wise this is possible but it doesn't make sense as you can not re-work the migrated BOM Data as the Part Names and their ID numbers are not suitable for new BOMs and can not be maintained. As soon as you change sth in the existing migrated BOM line you have to substitute this line with a new one from Part Template and you can not guarantee good data qualitiy of \"mixed\" Boms."
+  },
+  {
+    "question": "How do developers know if the BOM is passed for preconfirm but fail for BR? how to track to make sure all items pass for BR before promoting to BR while system doesnt show what is fail for BR?",
+    "answer": "The column 'Resolve before' shows what still needs to be resolved. As long as it is not resolved, the column will still indicate it and will not be empty"
+  },
+  {
+    "question": "So quick check and full check happens at the same time when saving changes?",
+    "answer": "The quick check happenes when you click save. After that, the full check will run"
+  },
+  {
+    "question": "Only difference between is full check will be executed once any errors are fixed after the quick check, right?",
+    "answer": "That is one difference; the other one is that the full check is also looking for all future lifecycle states and not just at the current one"
+  },
+  {
+    "question": "Will this mass upload include multi-color material? If not, who will do the manual update in BOM?",
+    "answer": "No, due to technical limitations, neither the \"as is\" nor the \"to be\" material may be multicolor materials. The manual update should be done by whoever is updating the BOM normally. Usually this is the Factory Developer."
+  },
+  {
+    "question": "All factories will receive a comment about mass change like currently?",
+    "answer": "It is not possible to automatically receive a notification as the overall notification functionality has not been developed yet. Comments are also not automatically created because they have not been implemented in Creation Portal yet."
+  },
+  {
+    "question": "Is the Promotion Ready State showing the actual state, the styles is in already, or the state I can promote to?",
+    "answer": "this shows the state I can promote to"
+  },
+  {
+    "question": "if i cannot find my style in the approval screen due to some unknown reason, can i go to the style detail to manually promote lifecycle?",
+    "answer": "No that is not possible. Users can not promote the lifecycle - the required signatures need to be there before the system triggers the promotion automatically"
+  },
+  {
+    "question": "can I somehow request signatures of the other parties via system if they are still pending and required?",
+    "answer": "This is already on our list of imrpovements. We will check again if and by when we can implement it, As workaroud you can use the buy ready report to review the signatures which are already set,"
+  },
+  {
+    "question": "If style BR is signed off by LO/T1 in approval screen, will the status of \"LO/T1 style style approval\" under style status automatically switch to YES?",
+    "answer": "No, the approval needs to be set on model and on article level"
+  },
+  {
+    "question": "It needs to be checked product/article approvals from another page and promotion approvals for another page, correct? Is is possible to see them on linesheet all together and give promotion approvals there.",
+    "answer": "Easiest is to check the Product Overview screen you\nsee all attributes with the respective approval status\nand you can easily switch between model and article"
+  },
+  {
+    "question": "Where can I filter for the BR date?",
+    "answer": "You can sort by earliest buy ready date or use the specific filter"
+  },
+  {
+    "question": "In the approval screen, as long as user approve style, it is disappear, and we don't have overview which style/article is pending signature approval from the other two approvers, and may miss it till BR date pass. Is there any suggestion how we can better track this?",
+    "answer": "As workaroud you can use the buy ready report to review the signatures which are already set,"
+  },
+  {
+    "question": "can we approve / sign several articles at once (like on the CWA screen in PDM right now) or only one by one?",
+    "answer": "Yes this is possible to do it as a mass update. Just select several articles and click on 'sign off'"
+  },
+  {
+    "question": "As long as one approver set signature, the LCS(AS) will turn to “Buyready”, or LCS will not change until all the necessary approvers set all the signature?",
+    "answer": "Yes, correct. Dependend on the lifecycle stage several approvals might be required (e.g. buy-ready state)"
+  },
+  {
+    "question": "To give BR all 3 bubbles should be green? or, for DD styles 2 green is ok as CC and T1?",
+    "answer": "Correct, for some approvals one approval from either the CC developer or the T1 is sufficient"
+  },
+  {
+    "question": "In FTW currently we only can promote to Sample Ready Stage if the CAD is uploaded by Design in PDM. What is the workaround for go live II, since CAD will still be uploaded in PDM with go live II, if I remember correctly and therefore is not considered as pre condition in CP.",
+    "answer": "Needs to be checked before sending to sample ready, as we can not check it for you. As soon as we have design pack integrated in Creation Portal there will be automatic checks but for now, this needs to be checked by the respectove developer"
+  },
+  {
+    "question": "Is there any timeline in calendar for all lifecycles?",
+    "answer": "There should be due dates in the respective development calendar"
+  },
+  {
+    "question": "is the team info updated per season (for c/o styles) as it might be developed by somebody and another person is taking over for next season... and 1st season is not finished yet?",
+    "answer": "Yes, the team info appliesfor the respective season and wil be changed in case of a carry over"
+  },
+  {
+    "question": "Depromotion from Buy Ready to Pre-confirmed: Is it possible to depromote after the BOM is frozen?",
+    "answer": "The demotion is only possible fir styles which are buy ready to pre-confirmed"
+  },
+  {
+    "question": "when we have an earlier material DL which is not according calendar is the prototype ready influencing the DL or can be pulled the material out of the system for the DL every time",
+    "answer": "the BOMx report is still working based on the timelines and the \"fabric activation button\""
+  },
+  {
+    "question": "Are the minute rates factory specific?",
+    "answer": "No, they are average values"
+  },
+  {
+    "question": "The negative value will minus the minutes from total sewing minutes of copied CS or will it only minus from the selected features?",
+    "answer": "Will be in overall calculation of total sewing minutes (will minus the total value)"
+  },
+  {
+    "question": "Are the stripes are always left/right, can I have as well only one side?",
+    "answer": "We can either set up a feature that has only one side with stripes or you can enter it manually via the \"Selected Features\" function."
+  },
+  {
+    "question": "If we have factory 6 digit code change in C/O season but still under the same 3 digit code and share the same cost driver (same costing seasonal table), will the system run automatic cs confirmation?",
+    "answer": "Yes, it will"
+  },
+  {
+    "question": "Are the massages coming up somewhere in the system or is a mail going out to LO/CCDA?",
+    "answer": "They are coming in the form of a daily email"
+  },
+  {
+    "question": "Can a Change Request be re-opened again when it was rejected?",
+    "answer": "No, when it is rejectred it stays rejected. It can be newly created but it is really a nessessity that Sourcing is checking upfront if the Change Request will be successful before it is created otherwise it would waste a lot of working time of all the involved parties."
+  },
+  {
+    "question": "Currently senior manager or director needs to approve the change after BR. Is this different now?",
+    "answer": "Changes after BR will follow the new Change Request approval process. We would recommend to initiate a CR only if the changes are already agreed in alignment with the Senior Mgr"
+  },
+  {
+    "question": "How Many Models you can compare at the same time",
+    "answer": "At the moment this functionality is limited to 2 models"
+  },
+  {
+    "question": "When is the DEVIATION appearing,? since there are some empty for certain stages?",
+    "answer": "The deviation appears for migrated CBDs, newly created CBD show the deviation on CBD list view"
+  },
+  {
+    "question": "What kind of System Issue does it indicate, if there are no rows showing, if I click on the section to see the details",
+    "answer": "- for migrated CBDs, there is currently an issue not showing the \"drill-down\" sections in CBD detail screen - for uploaded CBD files of out-of-scope factories (i.e. JUM), BOM information will not be available,\n- in general, CBD detail screen only shows the data which is selected in FCT for this model for LOH section"
+  },
+  {
+    "question": "CBD compare for two different factory.. Is this only for adidas? or also factory user can do different factory comparison?",
+    "answer": "Factories can use this functionality based on the existing security concept (factory can only see their own data)"
+  },
+  {
+    "question": "for which audience this comparison is available ?",
+    "answer": "Same as in PDM"
+  },
+  {
+    "question": "the comparison does not limited to gender /age group , right ?",
+    "answer": "No, it is not limited at all, you can compare anything you want"
+  },
+  {
+    "question": "Is it possible to share the slido questions and answers with us?",
+    "answer": "Yes - an Excel file with all questions is stored on the Teams channel"
+  },
+  {
+    "question": "Are the attributes shown on the Product Overview page for a specific division only?",
+    "answer": "No, the attributes are available for all divisions"
+  },
+  {
+    "question": "Is there any limit on how many attributes can be selected?",
+    "answer": "No, there is no such limit"
+  },
+  {
+    "question": "We see different numbers of available attributes. Why is that?",
+    "answer": "You should all see the same number of attributes. However, depending on if you selected the model or article view you will see a different number of available attributes"
+  },
+  {
+    "question": "What is the functionality of the arrow on the model name column?",
+    "answer": "This will sort the data in alphabetical order"
+  },
+  {
+    "question": "Is it possible to change the sequence of the filters to prioritize some?",
+    "answer": "You can delete all filters shown and add only the filters that you need"
+  },
+  {
+    "question": "How many models we can compare in maximum?",
+    "answer": "You can compare as many models as you like"
+  },
+  {
+    "question": "can the 'compare product' be exported?",
+    "answer": "No, that is not possible"
+  },
+  {
+    "question": "Is there a history functionality available for the product update?",
+    "answer": "Yes, but only for data that has been edited."
+  },
+  {
+    "question": "Who is able to edit data?",
+    "answer": "Editing in general depends on role and permissions in the system; You can find an overview in the Training Manual on the roles & permissions"
+  },
+  {
+    "question": "What is the meaning of numbers in column season? 20211 20212 etc?",
+    "answer": "Season year + season (1 is SS, 2 is FW)"
+  },
+  {
+    "question": "Does \"Locked\" mean the same as \"Frozen\" status which we used for PDM BOM?",
+    "answer": "The difference is the auto lock only happens with Buy Ready and not with Pre-confirmed aka as BOM-Frozen"
+  },
+  {
+    "question": "Who can lock and unlock?",
+    "answer": "For now it is planned for CC Developer. But the teams can individually decide who should be allowed and we can assign the permission to any role / user"
+  },
+  {
+    "question": "Is the name of the person locking the BOM shown in system?",
+    "answer": "No, only the timestamp"
+  },
+  {
+    "question": "Is there a mass lock/unlock function or it must be done one by one?",
+    "answer": "For now it is one by one. Mass lock would require access via Product App which is not in scope for now"
+  },
+  {
+    "question": "Does the old frozen function still exist? The locked function is slightly different from the frozen function.",
+    "answer": "The main difference is that the auto lock works only from Buy-Ready onwards and not Pre-Confirmed."
+  },
+  {
+    "question": "Is there article number in the BOM column or just the colorway?",
+    "answer": "You can see it via mouseover"
+  },
+  {
+    "question": "What is variation column for?",
+    "answer": "In case of a BOM Variation you will see here the Article Group Name this BOM line belongs to"
+  },
+  {
+    "question": "What's the difference between different view, generic view, sourcing view, primary view, edit leading bom? who will choose this view individually?",
+    "answer": "Generic view: For any BOM viewer, harmonized across categories; Sourcing View: Specifically defined by Footwear PDPMs; Primary View: System View (lists all available attributes for FTW models, columns can be re-arranged); Edit Leading BOM: Only editable fields and useful information like PLM"
+  },
+  {
+    "question": "outsole with different color belong to this but outsole with different compound don't belong to this, right?",
+    "answer": "Outsole shall continue to be specified with subparts as outlined in the BWG and the respective compounds shall be specified to their sub-parts"
+  },
+  {
+    "question": "for Outsole subparts, is it still allow for diff yields for potential diff compounds?",
+    "answer": "As outlined in the BWG, if compound or color is different, the yields need to be entered separately"
+  },
+  {
+    "question": "For the process treatment, i remember we can provide 1% loss for some complex process treatment, so we can't put it right now in BOM? where to put it right now then?",
+    "answer": "Very good callout. Loss % is still managed in FCT and follows the FTW Costing guidelines. We will update the BWG document accordingly."
+  },
+  {
+    "question": "Is it possible to export a BOM as PDF file?",
+    "answer": "No, this is not possible. You can export the BOM as xls file"
+  },
+  {
+    "question": "Is it mandatory to fill the part group attribute?",
+    "answer": "This is optional, you do not need to use it"
+  },
+  {
+    "question": "If I enter the material ref. ID (specific no.) and relevant material info, will the material supplier/material ID will show up automatically without the need to manually input data or select something?",
+    "answer": "When you enter the Material Ref# you will get an overview of all suppliers who offer this Material and which of them are active and in the Toolbox. (red box and orange trinagle icon). So you can select the one you need."
+  },
+  {
+    "question": "For the material addition, before in PDM it was choose out by dropdown menu, now it need to be key in or choose seperately? which will result low efficiency to create the BOM now if yes.",
+    "answer": "Wait & then dropdown will offer all available values, you can also type in so you don’t have to scrolldown"
+  },
+  {
+    "question": "for me, I cannot overwrite or see any thickness dropdown list appears",
+    "answer": "Being able to overwrite values that come from MLM it is still currently in development. It will be implemented by Go Live 2 in July."
+  },
+  {
+    "question": "for the only default group. what it means for the group? factory group. part group? or something else? (this is for the copy and past function)",
+    "answer": "In PDM words: \"The initial BOM\". The default Article Group shows all articles that are briefed into the first BOM without any variation"
+  },
+  {
+    "question": "Are yield columns visible to all users?",
+    "answer": "yield information sits on the Factory BOM so only users with permission to a specific factory will be able to see the yield Iindication of this factory"
+  },
+  {
+    "question": "can T1 Costing edit the yield columns (efficiency 1st cut, 2nd cut, yield)?",
+    "answer": "Nested yield data would automatically come from ProCost into the BOM, for manual entering the access rights are same as today"
+  },
+  {
+    "question": "for this new system, whether there are still leading BOM(beofore it is development BOM), and costing BOM and factory BOM? where to go into choose the different BOM, can you show to us?",
+    "answer": "We do not have a costing BOM any longer (is now in the FCT system); Leading & Factory BOM will be in Creation Portal - on the Leading BOM are all Header Attributes that apply to all users. On the Factory BOM you can see the factory specific Header Attributes such as Yield - the factory BOM differs from T1 to T1 and can only be viewed from persons with specific access rights."
+  },
+  {
+    "question": "For the current direct development process, factory developer will build the BOM from the beginning, if so, can factory developer edit or build leading BOM now?",
+    "answer": "Yes, if the factory developer builds the BOM from the beginning on the Leading BOM he/she is able to edit as well"
+  },
+  {
+    "question": "if width and length of material is already filled in leading BOM, will it be directly translated to production UOM in factory BOM?",
+    "answer": "No, it is not directly translated yet; we are working on this for the future, but we cannot say yet when it will be implemented"
+  },
+  {
+    "question": "Is the validation done by the system when it is finalized or when factory developer click save?",
+    "answer": "The system saves the validation once it is completed. In addition, anyone can save the status at any point of time (to be doublechecked)"
+  },
+  {
+    "question": "Will the manual validation overwrite the system validation?",
+    "answer": "yes, the latest validation is overwriting the previous one"
+  },
+  {
+    "question": "When does the lifecycle state needs to be promoted? Is there a calendar setting for this?",
+    "answer": "Yes, the milestone dates are reflected in the respective development calendars. According to those dates, the lifecycle state should be updated"
+  },
+  {
+    "question": "Will the terminology of the Lifecycle stages be changed for FTW as well?",
+    "answer": "Yes there will be only new set of Lifecycle stages in place as shown in the traiing manual"
+  },
+  {
+    "question": "snapshot can be done only in leading BOM or can be done in factory BOM too? that means snapshot is done on leading BOM level?",
+    "answer": "The factory details are already included in every snapshot. A snapshot always includes the leading BOM and the factory BOM details for all factories. When you view the snapshot, you can change which factory you look at and you can change the view, just like with a normal, live BOM (only without Edit Mode)"
+  },
+  {
+    "question": "Can we export BOM Snapshot to Excel file or PDF file or both?",
+    "answer": "Yes, the export is active and you can export all the data in an excel format. PDF format is not possible"
+  },
+  {
+    "question": "Another user can see the created snapshot later?; or it is saved in the system automatically?",
+    "answer": "the snapshot can be done by the BOM Creator (CC Developer, T1 Dev. Lo Dev.) Everybody with BOM View rights can view it. The Snapshots are stored under the History Button and every BOM user/viewer can view it. It is recommended to create Snapshots for specific Milestones. At Buy Ready an automatical SnapShot is taken by the System and stored under History as well."
+  },
+  {
+    "question": "Does snapshot BOM connect to costing apps (Origo/FCT)?",
+    "answer": "No, the snapshot is not actively linked to the FCT. Snapshot is NOT a playground where you can modify the data. It just shows the data as it is at a certain milestone during the creation process."
+  },
+  {
+    "question": "for new CP, do we still have a task list to indicate all pending CRs, similar to current PDM \"Task List\".",
+    "answer": "Task list will sit on the product App and is not implemented yet."
+  },
+  {
+    "question": "Is there any rule on naming in the snapshot?",
+    "answer": "In general, there is no such rule on the naming. However it is recommended to define the milestone and season in the name to identify the snapshots quickly. We can integrate a guideline in the training manual\nThis has been added to training doc now"
+  },
+  {
+    "question": "How do you know that a Signature is missing? As a signature holder, do we get an notification that we have to do anything?",
+    "answer": "Status 'Pending' shows that a approval is required. By cklicking on the approval section you can see who has already signed and which signature is still missing"
+  },
+  {
+    "question": "The yield column will be updated manually or mass- uploaded?",
+    "answer": "Yield data will continue to be automatically transferred from ProCost into the BOM for all the nested parts. Manual entry into the BOM is also still possible, i.e. for parts without nesting (example components in Prs or Pieces, like eyelets, packaging, etc."
+  },
+  {
+    "question": "Who has the access right for BOM compare tool? CC developer & LO developer only?",
+    "answer": "Every BOM User who has the right to view a BOM can use the COMPARE function"
+  },
+  {
+    "question": "Regarding BOM creation and BOM edit access , current in PDM is CC developer release permission to LOD/FDD by select below items, just would like to know how to handle this in creation portal, is it automatically open after CC developer assigned factory, or?",
+    "answer": "The access rights are defined in the Team Information, who is responsible for the model. And as the way of working has changed since this indication of the access rights have been implemented in PDM this is no longer needed in Creation Portal."
+  },
+  {
+    "question": "Would it be possible that we compare BOM in the same model/article but with different milestones?",
+    "answer": "Yes, you can compare different snapshots from the milestones. So for example you can compare same BOM before/after CR1"
+  },
+  {
+    "question": "If no snapshops in the past stage, can we compare the current one to the past BOM?",
+    "answer": "No, you should have a snapshot to compare with the live BOM - otherwise you don't have a Base to compare to. So it is recommended to take a snapshot at certain Milestones."
+  },
+  {
+    "question": "If many people create the same BOM snapshot, and save under the same name, how will system process?",
+    "answer": "There is the possibility to look in the History first if there is an existing snapshot and decide if another snapshot is needed and not too many persons have an interest in creating snapshots of a model. But the snapshots can be used from all BOM Viewers to compare the model with different creation status or other models."
+  },
+  {
+    "question": "Talking about history, is there a function in CP to see who changed what and when ?",
+    "answer": "No frontend yet, but it is available internally - you have to request it from IT"
+  },
+  {
+    "question": "We have below module in PDM to check design pack and tech pack, just would like to know how to upload and download design pack in CP?",
+    "answer": "Tech Pack / Design Packs are not in scope for the June Release and you will continue to work in PDM"
+  },
+  {
+    "question": "PDM is available to check material test report in below module, just would like to know how to check and download material test report in creation portal?",
+    "answer": "Material Test Reports will become ATP functionality. Until then I expect the function remains still in PDM"
+  },
+  {
+    "question": "Normally we would need to pick up a LAST before we brief a TN or NS model, PDM is available to check Last details information, how to check LAST details in creation portal?",
+    "answer": "Yes, we plan this show the LAST information aswell but for this we need to wait until the Library for Last is available in CP. Creating the Library is one of the topics planned untill 2022"
+  },
+  {
+    "question": "Is it possible to insert aPT link in product module , so that we can click and log in aPT system automatically to check test report for specific model/article. This function is available in PDM.",
+    "answer": "One of our next planned items after the GL2 is to add the aPT link on the product page . So it is already planned for the next release after the GL2."
+  },
+  {
+    "question": "Is there a more clear guidance regarding where to find the training material on the sharepoint? Have not been able to find where the documents are located.",
+    "answer": "Here you can find the link to our Learning Hub: https://adidasgroup.sharepoint.com/sites/CREATIONP ORTALLEARNINGHUB9"
+  },
+  {
+    "question": "Will adjustments save for future CP interactions or do they reset?",
+    "answer": "The filters and columns are saved in the user preference and if you use CP again , the last setting is still available"
+  },
+  {
+    "question": "Can you filter by an article list?",
+    "answer": "Yes, this is possible in the search function"
+  },
+  {
+    "question": "Regarding bookmarks: How do we identify the product milestone?",
+    "answer": "The lifecycle milestone is explained in the 'Product Lifecycle' training module"
+  },
+  {
+    "question": "How many products can you compare at a time?",
+    "answer": "There is no limitation, but the maximum of 100 results also refers to the comparison"
+  },
+  {
+    "question": "Is it possible to get pictures also in the export option?",
+    "answer": "We have already created an improvement for this but the implementation will not be possible for GoLive II. But we have it on our list."
+  },
+  {
+    "question": "For the seasons filter, how far in the past will we be able to go?",
+    "answer": "Until SS20"
+  },
+  {
+    "question": "Do the bookmarks automatically store and update new articles when they are added?",
+    "answer": "Yes, the bookmarks are updated automatically"
+  },
+  {
+    "question": "Could you in theory create a bookmark including any products that you yourself are a developer for to quickly access any and all of the products you are working on?",
+    "answer": "Yes, you can set the filter with your name as developer and if any new product is then assigned to your name, the bookmark will show the model automatically"
+  },
+  {
+    "question": "Will T1s be able to see the Factories section?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Where's the lead time?",
+    "answer": "LT you can find in the factory area"
+  },
+  {
+    "question": "Is the factory information (factory code, country, LO, address, etc) viewable in the factories tab?",
+    "answer": "Yes, the factory details are available in the +factory overview"
+  },
+  {
+    "question": "Can you do a mass upload on the Team information (select a group of working #'s or articles) and upload the same team members instead of one at a time?",
+    "answer": "That is explained in the BOM training module 'mass material replacement'"
+  },
+  {
+    "question": "For footwear category, on the file upload can be uploaded DXF files and other products art files in to the section?",
+    "answer": "Not for GL II, but definitely in the future"
+  },
+  {
+    "question": "Are there any documents that are required to be uploaded to proceed with certain functions within the system?",
+    "answer": "No"
+  },
+  {
+    "question": "Are these changes also saved in history?",
+    "answer": "Yes, the changes are saved in the history, but as long the UI is not available, you need to request the history via an Aspen ticket. However, the Tech team is already working on it"
+  },
+  {
+    "question": "Do the changes flow to marketing portal?",
+    "answer": "The CC developer information is published to our downstream systems"
+  },
+  {
+    "question": "For Unisex sizing, sometimes we like to sample multiple sizes. Can this be done here?",
+    "answer": "Multi size for sample size is not possible; for sample size, only one size is allowed"
+  },
+  {
+    "question": "Regarding color palette - is it possible to click on the specialty palette and see what specific colors are added in the palette?",
+    "answer": "This is not possible at the moment because the color Lib. is not yet available in CP. But as soon the Color Lib. is developed, this will be possible"
+  },
+  {
+    "question": "Who is responsible for creating this size translation?",
+    "answer": "It is the GDM team"
+  },
+  {
+    "question": "Can the selected size page & translations be exported?",
+    "answer": "The selected size page can be exported in the model overview, just as the feasible sizes selected for each model. It is not possible to export the translation for each country."
+  },
+  {
+    "question": "So moving forward in July after the go-live we will need to do functions in both PDM and Creation Portal for footwear to be maintained?",
+    "answer": "correct, after the GL2 you still need to work with two systems untill be cover all topics in CP."
+  },
+  {
+    "question": "Will there be any default settings in the details page eg BOM currency , general information?",
+    "answer": "There might be some default settings but this is individual from attribute to attribute. However, for the majority there is no default settings available"
+  },
+  {
+    "question": "Will the T1 be able to access CP by using different 6 dig fty code?",
+    "answer": "T1 users only see the codes that are assigned to products in their factory"
+  },
+  {
+    "question": "Do we have to provide specific FD + LOD access like we did within PDM? Or is the FD and LOD access automatically updated based on the CP system?",
+    "answer": "All the roles in CP (like FD or LOD) include the permissions that are required to perform their job"
+  },
+  {
+    "question": "If we change any info in CP is it going to be automatically updated in Flex? Or do we need to change info in both sites?",
+    "answer": "If something is changed in CP, it will most of the times be synced back to Flex/PDM. A detailed overview of the data affected will be provided"
+  },
+  {
+    "question": "Is the default LT for footwear set to 60 days in CP (not 90 days)?",
+    "answer": "Correct"
+  },
+  {
+    "question": "If we don't change LT in that part, can we change it later?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Are the system notifications sent by email?",
+    "answer": "Correct"
+  },
+  {
+    "question": "Can we delete factories that were previously assigned?",
+    "answer": "No, this in not possible"
+  },
+  {
+    "question": "Do we need to enter a Buy Ready date to show that it's a \"pull forward\"?",
+    "answer": "Yes, you need to provide the revised BR date"
+  },
+  {
+    "question": "Do we have to put in a delay reason?",
+    "answer": "Yes, that is required (will be renamed to 'revised BR reason')"
+  },
+  {
+    "question": "The revised BR date is performed by CC developer, correct?",
+    "answer": "Yes, correct"
+  },
+  {
+    "question": "Are pricing dates auto defaulted in according to season BOM we are working in /viewing ?",
+    "answer": "Yes, this information is coming from the BOM team"
+  },
+  {
+    "question": "BOM's can be locked by creator - T1's create BOMs this mean they can only lock / unlock BOM?",
+    "answer": "Yes, for now, the BOM can be locked/unlocked manually before Buy-ready stage"
+  },
+  {
+    "question": "If I change the order of the columns on \"Generic View Level\" will impact on the layout of the BOM view for the T1 BOM creator? Or the changes are restricted applied to my user view option?",
+    "answer": "You can only change the BOM View for your personal use. You cannot even save & store your view adjustments for the pre-defined system views. We will also show how you can create your personal view for later re-use"
+  },
+  {
+    "question": "PDM has the print view were you can export a pdf instead of an excel, with an A4 format ready - will this be available too?",
+    "answer": "This will be not available for Go Live 2, only the Excel Export. With all the 86 columns it requires an alignment across all the biz teams what should be on the pdf file to fit to A4"
+  },
+  {
+    "question": "Is there any option to export several articles boms in one file?",
+    "answer": "Not yet"
+  },
+  {
+    "question": "Is it possible to export while comparing multiple BOMs?",
+    "answer": "No, that is not possible"
+  },
+  {
+    "question": "Apart from save & edit button is there any visual indication we are viewing or in edit BOM mode?",
+    "answer": "No"
+  },
+  {
+    "question": "What is \"leading BOM\" vs. \"Factory BOM\"? feel like in PDM there is only 1 BOM - why do we have multiple now?",
+    "answer": "The former Development BOM is now called Leading BOM"
+  },
+  {
+    "question": "In PDM when click Material Ref# code, it leads to material page with all details, Is this one the same function as with Creation Portal?",
+    "answer": "No, unfortunately not yet"
+  },
+  {
+    "question": "When is the snapshot button visible?",
+    "answer": "It should be visible for all roles with Leading BOM Edit rights for all models before BR"
+  },
+  {
+    "question": "How many materials are in the Creation Portal?",
+    "answer": "All the material numbers are pulled from MLM, only the Advanced Search is not possible"
+  },
+  {
+    "question": "Are new colors still added in the same way as completed within PDM?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Who has authority to add treatment if not available?",
+    "answer": "The MLM team"
+  },
+  {
+    "question": "Is Supplier Color available to select ?",
+    "answer": "We do not know the precise values, but it is the same as in PDM today"
+  },
+  {
+    "question": "Is locking the BOM the new BOM Freeze?",
+    "answer": "The new BOM Freeze is a new lifecycle stage ('Pre-confirmed') and a function"
+  },
+  {
+    "question": "Will design have these part names and numbers too?",
+    "answer": "This is planned for the future but not available yet"
+  },
+  {
+    "question": "will these be used by Pattern systems?",
+    "answer": "The base for the part template was the existing pattern terminology. This is the base now for automation and will be implemented first for 3D."
+  },
+  {
+    "question": "Is there a way to roll up the BOM at the end, or is this the only view?",
+    "answer": "The roll-up function is not implemented yet but on the enhancement list."
+  },
+  {
+    "question": "The link for the apparel part template is disable - where can I find it?",
+    "answer": "De-select Factory and click edit button, lifecycle status should not be buy ready"
+  },
+  {
+    "question": "if you pick the incorrect T2 supplier for the material from the dropdown, can you edit just the supplier name?",
+    "answer": "Yes, you can re-select the T2 supplier again."
+  },
+  {
+    "question": "for Dual Source / MultiSource BOMs will still follow the BOM synch rules we actually have in Flex?",
+    "answer": "Those rules are not needed any longer as they are replaced by the Leading BOM concept"
+  },
+  {
+    "question": "Any Costing estimates should be done in costing tool am I correct?",
+    "answer": "Correct"
+  },
+  {
+    "question": "Are Artwork codes still used and available",
+    "answer": "Yes"
+  },
+  {
+    "question": "There is a material name in the system called \"dummy material...\" to be entered?",
+    "answer": "This was added everywhere, where we had yield information but no material information. So, that is the name how it is set up in MLM"
+  },
+  {
+    "question": "Is there a Material Search function, comparable to the one in PDM?",
+    "answer": "No, not in CP. You have to search for materials in PDM or MLM, until all functionalities have been transferred to CP"
+  },
+  {
+    "question": "Are other systems i.e. aTP being updated to follow the guidelines for model + article grouping per the new creation portal standards?",
+    "answer": "The guidelines are not new they exists since mor than 20 years , just in the past years the teams do not follow these common defined rules any longer"
+  },
+  {
+    "question": "That BOM Variation is applied for an example on the APE factory. Can we applied the same for multiple factories?",
+    "answer": "No, the BOM Variation is never applied to one factory only"
+  },
+  {
+    "question": "Can you delete Snapshot if it was mistake and replace with new one ?",
+    "answer": "No, created Snapshots can not be deleted"
+  },
+  {
+    "question": "Is it possible to export this comparison?",
+    "answer": "No, it's not. But you can send the link to someone so they can click it and view the same information"
+  },
+  {
+    "question": "Does it matter what View Option you are in before comparing BOM function?",
+    "answer": "No, it doesn't matter which view you use before comparing. It doesn't make a difference in the BOM Comparison"
+  },
+  {
+    "question": "Can you see the yield in the BOM comparison?",
+    "answer": "Yes, it's on the Factory tab"
+  },
+  {
+    "question": "this change request is only for BOM attributes? for any other change request what would be the process?",
+    "answer": "Yes, Change Request is only for BOM Attributes. Other Attributes on the Product App can be changed if you have the role and permittion to change. Then the little pen icon is active for changes."
+  },
+  {
+    "question": "what if your relationship type does not exist in the drop down?",
+    "answer": "Pls contact the S&P team and the missing reletionship can be added"
+  },
+  {
+    "question": "What is the first season that will be available in the CP?",
+    "answer": "SS20"
+  },
+  {
+    "question": "Can I run a BOM validation report for all my styles in a season?",
+    "answer": "For Go Live 2, we won't have a BOM Validation Report. However, we have added it to our list of potential improvements for future releases"
+  },
+  {
+    "question": "Can we compare migrated CBDs as well? Can we also bring a dropped articles's CBD for comparison purpose?",
+    "answer": "Yes, that's both possible"
+  },
+  {
+    "question": "Can we export CBD comparison data to spreadsheet?",
+    "answer": "No, this is not yet possible (but on the 'wishlist')"
+  },
+  {
+    "question": "Is there an overview of what specific functions are available within CP vs. what functions will need to remain within PDM based on the July go-live?",
+    "answer": "An overview on remaining capabilities can be found on the Learning Hub"
+  },
+  {
+    "question": "Any idea when we will get the reporting training?",
+    "answer": "The reporting training was conducted in the beginning of July. The recording and manuals can be found on the Learning Hub"
+  },
+  {
+    "question": "Are end users able to access CP learning hub?",
+    "answer": "Yes. External users need to be registered in the adidas active directory before the access works. Please check with the IT service in cas of issues"
+  },
+  {
+    "question": "When can users see the functionalities on the Production server?",
+    "answer": "All functionalities that are part of the Training will be available after the system went live in 2022. For your training account, each of the features get integrated on the respective system environment as soon as possible after it has been developed by our IT/tech teams"
+  },
+  {
+    "question": "What styles/season are shown on the training environment (Bizdemo)?",
+    "answer": "SS22, FW22 and SS23"
+  },
+  {
+    "question": "How does it work to filter a specific working number or article number?",
+    "answer": "Please use the search bar to search for a specific working number or a list of working numbers"
+  },
+  {
+    "question": "Generally speaking, what are are the new functionalities compared to the Version 1 of Product Application?",
+    "answer": "For PAPP basics: Additional filter possibilites, Size page overview, Size representation setting in User preferences, Editing of Product information in the Product Details screen, (mass) editing of Product information from the Overview screen, Product and Factory Team allocation on Model and Article level"
+  },
+  {
+    "question": "Is it possible to search and work with more than one working number (multi selection)?",
+    "answer": "Yes - please use the search bar to search for a specific working number or a list of working numbers"
+  },
+  {
+    "question": "My edit button is still not activated, why is that the case?",
+    "answer": "1)No user rights to be able to edit\n2)No editable column added to your table"
+  },
+  {
+    "question": "Do we now have all the attributes & information in CP that we have on the Flex/PLM detail page ?",
+    "answer": "No, there is still attributes that need to be maintained in Flex for the go-live II which are the following\n1.GWP/Customs Attributes\n2.Internal/Project Mgmt. (Print factory, Color1...8)\n3.Product Testing Attributes (view only)\n4.Size Category Attribute s\n5.Pattern Engineering Related Attributes"
+  },
+  {
+    "question": "What is the Maximum size KB/MB of a file for the upload?",
+    "answer": "There is no defined maximum - however please try to reduce the size of files"
+  },
+  {
+    "question": "Is there any possibility to delete the file if it was uploaded by mistake?",
+    "answer": "As also explained in the manual, you can stop the upload process but not delete the file once it is uploaded"
+  },
+  {
+    "question": "It would be good to give an idea in general what sections remains in Flex (eg. Tech pack file uploads) and what will move to CP (I remember we have that list what's in scope/out of scope in GL2).",
+    "answer": "Please check slide number 18 of this manual"
+  },
+  {
+    "question": "Is there any chance to change the size code page once it is pre-confirmed ?",
+    "answer": "The size page will be locked with pre-confirmed and a change request need to be created for changes"
+  },
+  {
+    "question": "Will there be a place to assign the fit category (level of pattern complexity) in CP?",
+    "answer": "Yes - you should be able to see and edit the fit category in the detail page"
+  },
+  {
+    "question": "1) Is it possible to mass update based on linesheet 2) Is it possible to change the lead time?",
+    "answer": "1) Part of the Manual 2) Yes, it will be possible to change the Lead Time"
+  },
+  {
+    "question": "For attribute \"BR cost relevant fty\", is it still assigned by CCDA regardless of the fty assigned by CCDA or sourcing (reallocation/dual sourcing business)?",
+    "answer": "No process change, the signing stays with the CCDA"
+  },
+  {
+    "question": "1)Will the system assign check what is a T1 & what is\na T2?\n2)Also, does the system apply a check to ensure that where a H source is assigned, that there is another source from within the same Supplier Group?",
+    "answer": "1)Yes, a T1/T2 check will be in place for the Go-Live II\n2)No an H source check is not planned but we will check if we can include it. Added to the PAPP Improvements Tracking Sheet"
+  },
+  {
+    "question": "Please explain the purpose of assigning factories on article level ?",
+    "answer": "In very exceptional cases it is required that specific articles are produced in a different A factory as the complete model. This assigment is done by the HK Planning Team."
+  },
+  {
+    "question": "Can we assign different articles to different factories?",
+    "answer": "Yes it is possible to assign a different factory priority on article level as on model"
+  },
+  {
+    "question": "Are there default values for min. Quantity on models and articles?",
+    "answer": "No, there is no default value for the min. Quantity"
+  },
+  {
+    "question": "As \"sample factory\" is something new.. who is in charge to update this attribute? Also, sample type has more than those 3, are we also going to capture those types or why just these 3?",
+    "answer": "The responsibility is with the T1 Dev. The 3 sample types are the ones which were given by the sample team"
+  },
+  {
+    "question": "Do we have a relevant business rule manual in the coming? Currently, manuals are more on functionalities introduction",
+    "answer": "All relevant rules should be already part of the manual. The manuals will be constantly improved based on the feedback we receive during trainings."
+  },
+  {
+    "question": "I can not assign Factories, I am logged in as LO Developer",
+    "answer": "Please try again as you should be able to assign Factories. If it is not working we will give you acess"
+  },
+  {
+    "question": "Regarding Sample factory, this is a new attribute in CP, so pls add business rule: 1. who need to update (LO, T1 or sample team) 2. is it a must to update for each style? 3. if it is a must, we need mass update function in overview.",
+    "answer": "1.The Responsibility to update the correct sample factory is handled by the LO Developer or the T1 Developer\n2.The sample Factory is defaulted by the system during the factory allocation & needs to be reviewed and updated in case its not correct\n3.Mass update will be available after the GL2."
+  },
+  {
+    "question": "Is \"Leading BR\" equal to \"earliest BR date on model level\" in FlexPLM?",
+    "answer": "No, it is the earliest buy ready on article level (taking in considaration the calculatin of revised buy ready and earliest buy ready)"
+  },
+  {
+    "question": "Is there any attribute of factory code on the CP detail page?",
+    "answer": "Factory code is shown in Factory Details, attribute is called Factory Group Code"
+  },
+  {
+    "question": "After GL2, can we still run all the information (eg. fty, BR information) in the FLEX linesheet?",
+    "answer": "Yes - at least for the factory code information"
+  },
+  {
+    "question": "What means \"A\", \"B\".. And \"Y\", \"N\" in the bread crum bar?",
+    "answer": "A, B, C etc: Indicates the Factory priority\nY and N: Development Factory, Yes (Y) or No (N)"
+  },
+  {
+    "question": "How can you see that one specific model has been allocated to multiple factories?",
+    "answer": "in the factory overview screen search for the working number and the overview will show you the assigned models. Alternative: in the detail page: select the Factory area"
+  },
+  {
+    "question": "If you are searching by multi working numbers without filtering factory assignment, all the factories that are being assigned under each styles will be shown in the detail list, right?",
+    "answer": "Yes, that is correct"
+  },
+  {
+    "question": "After reallocating the A factory code, do we need to change the Primary source (source) and Primary source (season) same as with FlexPLM ? And where we can update this?",
+    "answer": "No - the Primary source(source) and Primary source(season) will no longer be available in CP"
+  },
+  {
+    "question": "Who can lock and unlock?",
+    "answer": "For now it will be the CC Developer, but the access rights can be extented"
+  },
+  {
+    "question": "Is the Leading BOM and Factory BOM locked?",
+    "answer": "Only the Leading BOM will be locked. The lock of BOM during development phase is to have static BOM for Prototype Creation and not constantly make changes on pattern materials. This is a FTW requirement for Pre-confiremd, but was seen as useful for Costing to have a static Leading BOM to create Costing BOM and Cost Sheet for milestones. To use this function is optional, but it is available and can be used."
+  },
+  {
+    "question": "Can the un-editable attributes blur out while in edit mode?",
+    "answer": "There is no such blur option - However, in the edit Leading BOM mode you only see editable attributes"
+  },
+  {
+    "question": "In the \"BOM\" I can see factory but when go to \"factory\" it's mention \"no factories assigned yet\". do you know why it is?",
+    "answer": "This is just the initial screen shown to you. You need to initially assign a Factory to see it as an option you can select"
+  },
+  {
+    "question": "Can we export multi BoM in CP?",
+    "answer": "No, this is not possible"
+  },
+  {
+    "question": "Flex doesn’t allow 2 people to update the BoM at the same time. T1 has to check in to update and then check out - how about CP?",
+    "answer": "It is possible that more than one user is working on the BOM at the same time. Check in / Check out is no longer needed. The data is saved from the person who clicks save 1st but the likeliood is very low that 2 persons save at exactly the same time."
+  },
+  {
+    "question": "Is it possible to delete the created factory BOM?",
+    "answer": "No. You can not delete a Factory BOM, only clear out all factory manually entered specific BOM info ( yield, Mateial Supplier, editable cosing attributes)"
+  },
+  {
+    "question": "One more question about the BOM factory selection list. If a new factory is assigned, will the newly added factory be able to be selected in the Factory list in the BOM page?",
+    "answer": "Yes, later. On the biz demo server the two functions are not connected yet"
+  },
+  {
+    "question": "Will the search button for assemblies be available for the Go-Live II?",
+    "answer": "We still plan to have some improvements on the “Add\nPart screen” for GL2 when time allows\n*Select / De-Select all button for Assemblies\n* Search within Assemblies\nBut we cannot fully promise ☹\n_x000D_\nUpdate June 22:\nboth improvements are now implemented and\navailable:\n*Select / De-Select all button for Assemblies\n* Search within Assemblies"
+  },
+  {
+    "question": "How can we know if the thread is for sewing or for decoration if the part name is thread#1 thread#2?",
+    "answer": "You can specify this in the remarks field and it is indicated via the Material Reference Number"
+  },
+  {
+    "question": "If we know part ID#, is it possible that we can search by part ID# in the partlist?",
+    "answer": "If you know the Part ID , you will be faster to select it from BOM table directly in Part ID column"
+  },
+  {
+    "question": "My cursor for the function to type the material ref is not working, is this system issue?",
+    "answer": "Therefore you need to close the add part screen first"
+  },
+  {
+    "question": "CC DEVELOPER can only edit Leading BOM, not factory BOM, right?",
+    "answer": "CC Developer can also edit Factory BOM because they need the possibility to add yield on skeleton BOM"
+  },
+  {
+    "question": "What do we need to fill in \"color treatment\" ?",
+    "answer": "Color Treatment is a FTW specific Header Attribute out of the Generic View; Color Treatment is actually a Footwear attribute and you will only see it on the Generic View which has a combination of FTW & APP/ A&G attributes. Color Treatment defines special color pigments like pearlized, metallic, translucent...."
+  },
+  {
+    "question": "What is the best \"view option\" to edit BOM? Development view or edit leading BOM ?",
+    "answer": "This is personal preference. I recommend the Edit Leading BOM , which has all editable parts added without read-only in between and allows you easily move through edit fields. Try the different views and decide which one works best for you. It is also still planned that you can create your own views"
+  },
+  {
+    "question": "Is it correct that Factories can update a different material supplier name in factory BOM than a material supplier name in Leading BOM?",
+    "answer": "Yes, this is possible but should be only used in very exceptional cases i.e LAM vertical suppliers"
+  },
+  {
+    "question": "Trim workmanship: do we have the option for T1 enter freely in case it's not listed in drop-down list",
+    "answer": "No. You can only use the drop-down like in Flex today. If you want to make additional remarks use the T1 Remarks field"
+  },
+  {
+    "question": "In what case should we add CIF% OVR? In my\nunderstanding the CIF% will be taken from the lookup table",
+    "answer": "Sometimes not all CIF cases are covered (like today) and then you would use the overwrite. For example for airplane transport."
+  },
+  {
+    "question": "Is P4P also valid for A&G or APP only?",
+    "answer": "You can use it for A&G as well but we do not expect many of those cases"
+  },
+  {
+    "question": "Related to limited relase material, in the manual it says: It will NOT be possible to promote the Style/Article to Buy Ready if Limited Release materials are not released for the use purpose or Model Number. Question: who will release then?",
+    "answer": "This is the same process like today. If you find out that a Limite Released Material is still not Released 1 week before then you need to check with Material Testing ( CC / LO Developer) and ifnot possible to get a\nworking # specific release the material need to be replaced with a released one. Limited Released Materials for APP only allowed for Fashion products"
+  },
+  {
+    "question": "Is it possible to delete a defined Article Group?",
+    "answer": "This is not possible as the information will be directly send to the downstream systems."
+  },
+  {
+    "question": "From demo of MGH and DGH version that are put into different article group, can we put both MGH and DGH into the same article group if they both use the same material ref?",
+    "answer": "Yes, you can put one or more Articles together in one Article Group when the same material is used. then you have to update the colors on the colorway like the colors in the default group."
+  },
+  {
+    "question": "From Flex system wise, variation is not allowed under a complex item. How about CP?",
+    "answer": "If you mean with complex item Multi color material or label Group then this will work in CP"
+  },
+  {
+    "question": "How to update BOM seasonal changes without impact on the previous season?",
+    "answer": "BOM Seasonal changes will always apply to the season the change is first introduced and all future seasons. Previous seasons will not be impacted"
+  },
+  {
+    "question": "Is it possible to do a mass validation or run a validation report?",
+    "answer": "Since the validation will run automatically whenever you save a BOM, there is no mass validation possibility."
+  },
+  {
+    "question": "Can we have mass sign off?",
+    "answer": "Yes this is possible. You can select all products that you want to approve and click the sign off button"
+  },
+  {
+    "question": "For carry-over article the Buy Ready status is kept - will the approval status (i.e. workmanship, trim, artwork, testing .. ) by CC/T1/LO also be kept?",
+    "answer": "Yes, all approvals will be kept except the seasonal ones like seasonal cost sheet."
+  },
+  {
+    "question": "Will the system automatically check if the test report for a C/O article is still in validate period? or is there an anually check needed?",
+    "answer": "Test reports will not be checked by the system, this needs to be done manually"
+  },
+  {
+    "question": "Can orders be placed when the re-test status is not set yet (for Buy-Ready)?",
+    "answer": "Yes"
+  },
+  {
+    "question": "I tried to compare BOM with saved snapshot, but the snapshot did not show on the comparison area",
+    "answer": "This feature is not developed yet"
+  },
+  {
+    "question": "Is it mandatory to create a snapshot per development milestone?",
+    "answer": "No this is not mandatory. You can use the snapshot functionality as a supporting tool but you do not have to use it"
+  },
+  {
+    "question": "Does the editor have the right to do snapshot under FTY BOM?",
+    "answer": "Yes. A Snapshot is taken always for all attributes & factories independent for the selected View the snapshot is taken"
+  },
+  {
+    "question": "We can only compare the snapshot? So we have to add a snapshot before comparing?",
+    "answer": "You can compare Live BOM if you don't select a Snapshot from dropdown filter"
+  },
+  {
+    "question": "When adding a model, the save button at my side is grey to click as below screenshot",
+    "answer": "This functionality is not yet enabled on the BizDemo environment."
+  },
+  {
+    "question": "Does it mean there is no mass replacement option for multi color materials?",
+    "answer": "Yes. Neither the AS IS nor the TO BE material can be a multi colored material. You need to replace these manually."
+  },
+  {
+    "question": "How are we dealing with missing features?",
+    "answer": "Missing features can easily be added. We are not working with a hardcoded functionality but with a flexible reference data upload table.\nHowever, when you come across missing features during the testing activities, please make sure to let us know so that we can add them for go live."
+  },
+  {
+    "question": "Can the qty be \"-1\" so that can calculation the SMV reduction if a specific feature on ref. style is no more need?\n_x000D_\nTo be more specific, if a reference style is with 3 stripe, and i need to calculate the sewing min for a style without 3 stripe, if the sewing asset library could support this kind of reduction calculation by entering the 3 stripe qty as \"-1\" ?",
+    "answer": "Yes, this is possible. However, in case the value is below 0, an error notification will be shown automatically, i.e. the sewing minutes are shown in red."
+  },
+  {
+    "question": "For those CS which are out of allowed variations, will LO costing managers be informed so that they are aware of the action they need to take?",
+    "answer": "There will be a notification implemented to inform the Costing manager. However, you can also manually check work numbers by the regular filter and view functions."
+  },
+  {
+    "question": "Is the notification sent style by style or there is consolidation with certain rules?",
+    "answer": "One consolidated Notifcation will be send per day"
+  },
+  {
+    "question": "Is it correct that when a C/O Costsheet is manually confirmed, it needs to be confirmed by the LO costing manger? Since as of now, the CC dev. approves all c/o CS.",
+    "answer": "Yes, this is a new process, at least for carry over styles. Once set to buy ready the artice stays buy ready which means that the responsibility changes"
+  },
+  {
+    "question": "When does the auto confirmation happens? By any frequency or certain timeline?",
+    "answer": "This happens automatically whenever a T1 submits & verifies a costsheet. Please note that this is only the case for the final costing milstone only"
+  },
+  {
+    "question": "How often the MP data will be refreshed to creation portal ? and will go via SPM or directly from MP to CP ?",
+    "answer": "there's no 'schedule' how often the data will be refreshed, it should ideally be close to real time in PROD, but in general test environments like SIT are slower. MP data is going to CP via DSP."
+  },
+  {
+    "question": "Will the history cover changes on hangtag & ILA labels ?",
+    "answer": "The history will not cover changes on hangtags & ILA labels as it is ready only in CP. Changes are done on MP- history can be checked there."
+  },
+  {
+    "question": "What is DSP?",
+    "answer": "DSP stands for 'Data Streaming Platform' and is one of the connected systems. If you need further information I can connect you with someone from the TECH team"
+  },
+  {
+    "question": "who is able to lock/unlock the BOM? When CCDev has locked the BOM, can only CCDev unlock, or can also the T1 unlock? When the T1 has locked the BOM, can CCDev unlock the BOM? Or only the T1? For unlocking, does it need to be the exact same person, or someone with the same user rights?",
+    "answer": "Only CC developers are able to lock/unlock the BOM. The permission can be extended to other roles and specific people as well if needed. The unlocking process can also be done by another CC developer than the one that locked the BOM"
+  },
+  {
+    "question": "is it planned to have a pdf export of the BOM? Currently in Flex, the T1s send the pdf BOM export to the label T2s when they order the labels. It is more about the AD print. As the AD print is still in Flex, I want to make sure, that it will still possible to export the AD (including the BOM) in pdf format. This is important for ordering the sewn in labels.\nAlso for the future, when the AD print is moving into Origo, it is important, that it can be exported to pdf format.",
+    "answer": "yes- AD print stays in Flex AS IS incl pdf export. The only change is, that the BOM info will be taken from CP (as no longer available in Flex) and there are some slight changes to the structure of the BOM (as its slightly different in CP compared to Flex)"
+  },
+  {
+    "question": "In Flex, the materials, which are used in the BOM are having a hyperlink, which is connected to the material information. Our customs department would also need a hyperlink to the material information in the new Origo BOM, as they need to identify the materials, which are used in a certain BOM. How is this handling planned in Origo?",
+    "answer": "As long the Libraries (not only Materials) are not part of Creation Portal we cannot create a hyperlink to Library items. The pre-condition is that Library objects are available in Creation Portal then the DBOM can create the hyperlinks. Until this is in place, everyone needs to continue to use the Library functions in Flex/PDM."
+  },
+  {
+    "question": "Is it correct to say that they are the “same”, only different bookmarks showing the specific information?",
+    "answer": "All three tabs show available products for different\npurposes\n- Products – all Products available\n- Factory – all Products assigned to a specific Factory,\nso one product can be displayed several times if it is\nassigned to multiple Factories\n- Costing – available Cost sheets per Product"
+  },
+  {
+    "question": "Will there be a link to ATP within the creation portal?",
+    "answer": "For the Go-Live 2, there will be no link available. The connection to aTP will be discussed after the Go-Live."
+  },
+  {
+    "question": "Is there an updated schedule available when the next functions will be moved?",
+    "answer": "I assume you are referring to the remaining functionalities that are not developed for Go-Live 2. The priority and timing will be discussed and shared after the Go-Live."
+  },
+  {
+    "question": "Will there be a report similar to the weekly complete system download done by FTW?",
+    "answer": "I assume you are referring to the CWA report. CWA report remains in PDM but some columns will be empty as the data is moved to CP with golive2 and not synced back to PDM. To replace it, there will be a Full season report (cross divisions) in the MSTR reporting tool available that will go live with Golive2"
+  },
+  {
+    "question": "If we set a filter on model level, will it keep the same on article level?",
+    "answer": "No, you needs to be set it again on article level. What you can do is to set pre-filtered bookmarks by adjusting your personal preferences but this will always apply either on model or article level."
+  },
+  {
+    "question": "For all divisions, Sizes will be assigned in Marketing Portal and cannot be updated in Creation Portal. Sample Size needs to be edited in Creation Portal. The dropdown shows all values from field Sizes, correct?",
+    "answer": "Both statements are correct"
+  },
+  {
+    "question": "The compare BOM button is greyed out for T1 user, has this not been implemented in biz system & can we have it in June UAT?",
+    "answer": "This is a bug we have identified during testing and is fixed now and available for GL2"
+  },
+  {
+    "question": "It is workable to have one account shared to 2+ users, login and edit at the same time?",
+    "answer": "This should absolutely avoided as it is against the permission. Only persons with user log-in should be in the system to be identified with their roles and responsibilities."
+  },
+  {
+    "question": "Part name is missing in hide& show list, is this a bug or define by purpose?",
+    "answer": "Part Name is the only Header Attribute that can not be hidden. Even if you hide them all and the complete BOM is gone, you can not delete or hide Part Name. so it starts with the referring Part ID. Please see DBOM Basics Manual page 19 Topic #2"
+  },
+  {
+    "question": "CIF% automation in CP is for fabric only (as Flex), or it is now covering trims & label section? These two sections have no auto CIF% in CP so far and also not editable, it is bug?",
+    "answer": "CIF% automation available for trims in CP, but not for labels. CIF% only editable in CIF% OVR. Might be that the used T1/T2 combination is not available in our trim CIF% value upload table. Pls provide used Working number for verification."
+  },
+  {
+    "question": "Seasonal change should be apply for future season only as per seasonal variation rule. In CABR manual slide 12, it is mentined apply for all season(past&future). Would you clarify?",
+    "answer": "A BOM CR or product changes after buy ready per default are non seasonal and should be added as BOM CR (for example BOM corrections, quality issues....) only in exceptinal cases we have real Seasonal Variations and these are done via BOM CR in the Carry Over season"
+  },
+  {
+    "question": "T1 user can't see the BOM validtion details for some\nLCS, it is system migration issue or what else?\nS211CSPW210Lsample-ready\nSS22IVPS1014 Pre-confirmed\nF22SMC5203LCreated",
+    "answer": "S211CSPW210Lsample-ready\nSS22IVPS1014 Pre-confi rmed\nBoth of these have all dropped articles. Validation\nwon't run for dropped articles.\n_x000D_\nF22SMC5203LCreated\nIn general, BOM validations are not done during\nCreated state, so they will not see results then."
+  },
+  {
+    "question": "Migrated C/O style from Flex(not yet release BR) to CP, will the LCS aotomatically change to \"buyready\"? Or user have to promote it?",
+    "answer": "Seasonal lifecycle statuses of C/O products will be migrated as-is from Flex. At source- Felx user will synchronize the seasonal lifecycle state of C/O products to the lifecycle state of parent TN season"
+  },
+  {
+    "question": "In DBOM on CP Biz, material color \"4586\nCUSTOMIZED\" is not available to choose. This color is used in customization products. Is this just an issue\non CP Biz only?  On CP production after GL2, will this\ncolor be included?",
+    "answer": "This is because the latest data isn't updated in BIZ. If you encounter something like this after the go live, the Color & Trend Team can make updates as required."
+  },
+  {
+    "question": "Is it still possible to add attribute \"Color Layer Number\" to BOM View \"Edit Leading BOM\"?",
+    "answer": "with the automated Multi Color material function you don't need to enter a Multi Color Layer number. Nevertheless . Color Layer lines are automatical level 2"
+  },
+  {
+    "question": "Will C/O new article automatically confirmed by system if pass identification? As there is no same\nsource of color  not,",
+    "answer": "You are referring to the automated identification (before any automatic confirmation is happening). \"One colorway\" says that as a precondition for the successful identification which cost sheet needs to be compared with which, one colorway needs to be the same for the cost sheets in the previous and in the C/O season.\nAny new colorway that comes in addition and is part of the final C/O cost sheet will also be automatically confirmed and the trigger for this is the T1 pressing Submit & Verify by T1."
+  },
+  {
+    "question": "For a C/O article CS being automatially confirmed, later unconfirmed for CS update due to e.g MD project, changes after BR, after resubmit and verified, will it run the auto CS confirmed process again? If not, T1 need to inform LO costing manager to manually confirmed as today. so this process need to add in for reminder.",
+    "answer": "This is correct - an already automatically confirmed C/O cost sheet that needs to be unconfirmed and updated for whatever reason will go through the same automatic process again. Trigger is again the T1 pressing on Submit & Verfiy by T1."
+  },
+  {
+    "question": "Start from which season, the name of Factory costing manager/LO costing manager should be enter and does it also apply for migrated styles?",
+    "answer": "I would propose to start with FW 23 season. The entering of the LO Costing Manager can be done in a mass update via the line sheet. And yes, this also applies for migrated styles.\nApart from that, the entering of the LO Costing Manager also has the advantage that an LO Costing Manager can easily filter for their styles."
+  },
+  {
+    "question": "Validation for add parts in carry over season: In C/O season we make changes via the “BOM changes after buyready request (CABR)” and “ the change material keep blank in previous season”. In validation, it mentioned “If you make a change to a BOM in a carryover season, it is only validated in the original season”\n-so how does it works in the previous season part group without materials and still can be validated? -And when we send CABR in C/O season, the validation should be made in this season CABR as well base on system rule.\nThe above are conflicted, would you clarify? Thanks.",
+    "answer": "If you have an article that's Buy Ready and you need to add a part/material in a carryover season, you add a part with CABR, but leave the material blank in the original season. Then you add the material in the carryover season.\n_x000D_\nCarryovers are only validated in the original season - that means this material will not be validated at all. Instead, when you add it, you have to be certain it's allowed. It is a fairly rare case and should only be done if it's certain that the material should be used. Validation won't cause any issues if the material is blank in the original season. If the material is the same one as in an existing part group, I think it would make sense to have a separate part group: one for the part only required in c/o seasons, and one for all the parts valid for all seasons."
+  },
+  {
+    "question": "When will Origo be fully operational? (Instead of part tasks in Flex & part Origo)",
+    "answer": "The roadmap for remaining functionalities will be defined after the Go-Live 2. We will share more information with as soon as we have more clarity and an estimation. Thank you for your understanding."
+  },
+  {
+    "question": "Will the Origo manual be regularly updated once a \"release\" or update to the system is done? (eg no flex manuals were mainatained during releases & it is very difficult to find the correct information)",
+    "answer": "Yes, we are continously updating the training material and also plan to do that in the future. Please reach out to us in case you miss something that is not explained in the manuals"
+  },
+  {
+    "question": "After create variation in DBOM, blue rows will be added for variation. Is it possible to grey out color cells that are not correspended to each group for more convenience when filling in color of each article (pls refer to screenshot)?",
+    "answer": "We need to check if this is technical possible for future"
+  },
+  {
+    "question": "Is it possible in the future to also have icon \"S\" for seasonal variation in Factory BOM ?",
+    "answer": "Factory BOM are seasonal whereas seasonal changes on Leading BOM are only exceptional"
+  },
+  {
+    "question": "According to below captured rule that rows with blank part ID/name will be automatically removed when save BOM, T1 users raised concern that there can be sometime that they add material before part name. Is it possible to change this to be an error when saving instead so that BOM creators can just simply put in part ID/part name before saving again rather than letting system to automatically remove these rows?",
+    "answer": "This has been requested before, and we will see if it is possible to change in the future."
+  },
+  {
+    "question": "In case of any CR after BR for dual source styles, other factories should request/approve CR as well due to immediate change/running change can be different between them due to material stocks",
+    "answer": "If this is a requirement for the future and is requested and prioritized by Key Users we can consider this, This was not a request from sourcing or CC Developers"
+  },
+  {
+    "question": "3-Dual source factories (non development factories) cannot make any change on leading BOM, is there any system lock for this?",
+    "answer": "This is the defined process, but not a system restriction"
+  },
+  {
+    "question": "Is there any plan to lock the Factory BOM on BR or only Leading BOM?",
+    "answer": "Since on Factory BOM you can only change th Factory specific attributes you cannot lock it and should nozt lock it."
+  },
+  {
+    "question": "In case of dual sourcing, once dev fty would like to change color or material ref number etc, are they getting a warning message or only once they would like to delete a row?",
+    "answer": "Required Product changes need to happen on Leading BOM and will be reflected immediately to all assigned factories (we have only one Leading BOM) Changes"
+  },
+  {
+    "question": "Interlining for embroidery is not being added in BOMs in Flex PLM. Is the approach same in Origo?",
+    "answer": "In Origo Interlining for Embroidery should be mentioned and listed as we need this for sutainablity reasons. As well as the Embroidery thread must be listed in the future BOM under Trim items - the colors will be still handled in the Artwork Section"
+  },
+  {
+    "question": "Is working number variations will be needed for all artwork tehnique changes? How it should be managed if there is rubber print and discharge print for different articles for the same artwork?",
+    "answer": "this should be handeled via BOM Variation in the Artwork section and via Article Group."
+  },
+  {
+    "question": "is it possible to export also images with Product Overview export?",
+    "answer": "Not part of Golive2- but already added to the list of post Golive2 improvements."
+  },
+  {
+    "question": "Can we have Specialty Palette as attribute to select in Product Overview Screen?",
+    "answer": "Not part of Golive2- but already added to the list of post Golive2 improvements."
+  },
+  {
+    "question": "Can pattern files get uploaded as well to the system in future , e.g. model pattern, Basic Pattern?",
+    "answer": "Yes, this will be part of Creation Portal in the future (also post Golive2 of course)"
+  },
+  {
+    "question": "Is there a cut off date where the T1's can not update the Lead time without our approval? Just worried if we have some BR dates change close to BR",
+    "answer": "No, there is no limitation- but an email notification implemented. If sth more is needed here we need to discuss together and add it to the list of post Golive2 imrovements."
+  },
+  {
+    "question": "Will the automatic validation be added after GL II for the different lifecycles?",
+    "answer": "So far, this is not planned. Remember that validations happen automatically when you save the BOM. If we find that the automatic validations after save are not enough, we can add this as a request."
+  },
+  {
+    "question": "is that for direct and non direct the same 3 approvals? or do we need only LO and CCDA approval for non direct?",
+    "answer": "To set the Article to Prototype Ready\nonly one signature is required, and this\ncan be set by:\n- CC Developer OR\n- LO Developer OR\n- T1 Developer\nThe CC Developer is responsible to set the signature\nfor the NONE direct development styles\nThe T1 Developer is responsible to set the signature\nfor the direct development styles (of the development\nfactory)\n_x000D_\nTo set the Article to Buy Ready there\nare 2 signatures required\n- CC Developer\n- LO Developer for NONE direct development\nOR Factory Developer for direct development"
+  },
+  {
+    "question": "so does it mean even T1 or LO did not release BR, we can promote style to BR? there is no system filter?",
+    "answer": "See answer above regarding signatures needed to set\nthe Article to Buy Ready.\nThe following Pre-conditions needs to\nbe fulfilled:\n- BOM Validation\n- Carton Quantity\n- Hangtags (New)\n- Proto Approved (Fit, workmanship & artwork) and\nDevelopment style approval\nNot checked by the system but require manual check:\n- Confirmed final FOB"
+  },
+  {
+    "question": "With Customs library, can I create my own library which will be visible then always for me or just for that specific style?",
+    "answer": "Whatever you have entered in the \"Feature Name\" field, the system will keep in mind. This means that whenever you are typing the first letters of that feature again, the system will remember and you will see it in the dropdown menu where you can directly select it before typing everything again."
+  },
+  {
+    "question": "Is a B-source also allowed to initialize a Change Request if they find a mistake in the BOM?",
+    "answer": "The system does not prevent this but the process is defined that only the A factory / Dev Center makes updates on the Leading BOm"
+  },
+  {
+    "question": "Is Design PACK Accurancy.also available for FTW?",
+    "answer": "currently its only available for APP. We can add it to our list of postGolive2 improvements"
+  },
+  {
+    "question": "What is the definition of SPEED PROPOSITION: Who could answer this?",
+    "answer": "The Speed Proposition comes from MP and as per the value received from MP, Production Feasibility is defaulted in Origo\nI have written a seperate mail about this"
+  },
+  {
+    "question": "Where can the SEC (Sustainability & Ethic Compliance) brief be found? In PDM it was on the PB details. But we could not find it and it's so important. Also a search function for SEC would be helpful!",
+    "answer": "The attribute ‘Sustainability and Ethics Compliance’ shows in full season report.\n_x000D_\nThe new buy ready report will be the same distributed from Christine Schmuttermair(formal name as CWA status report), this attribute is not required on the buy ready report."
+  },
+  {
+    "question": "Will aTP test result page be linked directly to Origo on the product testing section? Would be great to have link in CP under Testing details which brings you to the ATP test side.",
+    "answer": "This is planned for the future but will not be implemented for Go-Live 2"
+  },
+  {
+    "question": "For product lifecycle promotions. For FTW, one of the pre-conditions to set an article to sample ready is BOM validation. Does this mean that a BOM validation simply needs to be executed? Or does the BOM validation need to executed and come back completely passed like the promotion from sample ready to pre-confirmed?",
+    "answer": "in order to promote to any lifecycle the BOM validation need to be passed for the respective lifecycle. in general the BOM validation is done with every save of the BOM and the result is communicated to Product APP. In case you cannot find your model /article in the approval screen it might be that the BOM validation failed (then the product will not show up on your approval task list) then you can check the BOM Validation report directly what are the issues and for which lifecycle it needs to be resolved"
+  },
+  {
+    "question": "Knowing that in July, 2022 we will need to use both PDM and Creation Portal to update article information, are the two systems synced together? Is there a delay between the system syncing? If you update something within PDM will it also be reflected in CP and vice versa?",
+    "answer": "Yes, the systems will be connected and data will be automatically flow in between. Please check the manuals for any exception or workaround"
+  },
+  {
+    "question": "it is not mentioned in the manual, but when I pick up and drag a column into the pinned panel, a pin icon shows up just like it does in the overview screen. However, when I let go it does not get pinned. Is this a planned feature or this pin icon is a glitch?",
+    "answer": "I'm sorry I'm not quite clear about this requirement. for future improvements please reach out to your Key user to request this improvement"
+  },
+  {
+    "question": "Will the BOM auto lock during Buy Ready if there are issues within the BOM?",
+    "answer": "If you have issues within BOM ( invalid materials /colors, not released materials) you won't be able to set to BUY Ready hence no auto lock. As far as I remember from PAPP Training those Models will also not show up on your Approval screen"
+  },
+  {
+    "question": "Are you prevented from moving forward within any stage of the Product Lifecycle is you have errors within the BOM OR if you have missing or unfinished updates within any area's of the article set-up? If yes, could we have a deeper understanding and highlight of which stage is prevented from moving forward within the Product Lifecycle if there are errors within the BOM/Information within the article set-up?",
+    "answer": "In BOM you always can see in BOM Validation status Details sheet and here you will see until it needs to be resolved . The details for the BOM Validation you can find in the Training session / document \"Save & Validation\""
+  },
+  {
+    "question": "Are design updates (tech etc.) still updated within PDM after the Go-Live 2 date in July?",
+    "answer": "Yes"
+  },
+  {
+    "question": "Is extra packaging (additional laces) updated in Creation Portal? Or is that a function still needing to be updated within PDM after the Go-Live 2 date in July?",
+    "answer": "Still in PDM"
+  },
+  {
+    "question": "Does the Development factory need to have “priority A” for the factory allocation? If the Development factory does NOT do any production, how should we proceed with the factory priority within Creation Portal?",
+    "answer": "NO, system allows also other combinations. Dev factory = yes doesnt need to be Factory prio A."
+  },
+  {
+    "question": "Changes after BR -> is it possible to enter a reason, when rejecting a Change Request?",
+    "answer": "Yes. Before a LO or CC Developer reject the BOM CR you can use the Snapshot Remarks field to enter the reason of reject"
+  },
+  {
+    "question": "BOM Variations: is it possible to do Variations with Complex Materials?",
+    "answer": "Yes, you can do BOM Variations for Multi Color Materials"
+  },
+  {
+    "question": "To promote an article to \"Sample Ready\" status, do we need to have a completely clean BOM within the system? Or do we only need to do a validation? If there are issues within the BOM will it still allow the user to promote to \"Sample Ready\" status? Believe this will be important for the MTF function within the system (typically in PDM we need to have the article BOM Frozen to process an MTF - would we now assume that we need to have the article BOM locked to process and MTF?)",
+    "answer": "The requirements for BOM for Sample Ready must be passed before promoting to Sample Ready. A manual or automatic BOM validation must be run, and the BOM Validation Result must be \"Passed for Sample Ready\" or higher in order to promote to Sample Ready."
+  },
+  {
+    "question": "On BOM with variation, when filter only article with variation, BOM still show both the white row (default group) and blue row (group with variation). Is it possible to only show the BOM rows corresponding to the filtered article number?",
+    "answer": "For Article Variations you will for now always see the corresponding default group line. but if you select only the Default Group articles you will only see Default Group relevant lines. A possible workaround is to export the BOM to excel and filter in excel . For future improvements we have already to allow to show /hide selected lines only"
+  },
+  {
+    "question": "When the T2 selection menu was popping up by entering a material in BOM, the question came up if it’s still in scope to have the T2 selection sorted by region. As well would it make sense to have the material source which cannot be selected at the bottom of the dropdown? For some common materials with many T2s it might be helpful.",
+    "answer": "In general all improvements you want to have should be addressed via your Key User in your area. This is the same process like for Flex improvements before. The focus right now is to deliver all business critical and high impact functions to ensure the business still can run. afterwards we can look to bring in the nice to have features. We work here closely with the Business Owners, BU Key Users and Sourcing Key Users to define the next priorities."
+  },
+  {
+    "question": "There is the rule to not enter color information into remarks field as it would cause system issues regarding material order. What about when color PANTONE XXX is entered in color field, and the exact pantone color code is added to remarks field as it was done in Flex?",
+    "answer": "sure it is ok to enter additional Pantone codes into remarks field, but important is to fill color in color filled otherwise BOMx and Material prices for CS cannot be pulled."
+  },
+  {
+    "question": "When part group # 10 is marked as main material YES with the automated breakdown, which is great btw, it was noticed that when a BOM line is than changed to part group# 20 and the material reference is\nchanged, the main material YES is staying, in this case we just need to pay attention to deselect it manually, right?",
+    "answer": "Yes, this is the same as today"
+  },
+  {
+    "question": "In CP, when article is buy ready, it will remain buy- ready for C/O seasons. What if there is material supplier status updated to \"inactive\" or material supplier is not in seasonal toolbox for C/O season? What will be the process? And will there be any system notification so that BOM creator knows that they need to check?",
+    "answer": "On FTW side a real Carry Over Article will remain untouched because in development season the material was in toolbox and an active material. It is just not in toolbox any longer because it should not be used on new developments. If the material is inactive due to quality issues or material is not offered any longer it needs to be replaced via BOM CR or Mass Material Replacement."
+  },
+  {
+    "question": "Per my understanding, T1s are not supposed to have Edit Right for Speed attributes. It is found in Training session Biz environment that T1 can edit these speed attributes. Is there any change to the process ? or is this just wrong access right?",
+    "answer": "From a process perspective LO users are asked to edit, this is not a T1 responsability. But we still defined that from a system functionality perspective we enable both LO & T1 user for the edit right and do not limit it to only LOs."
+  },
+  {
+    "question": "In case of Development transfer on a carryover season with no available valid production factory how we could de-promote the lifecycle status from BR to pre confirmed? Any process on this. We have case in F22 wherein the previous season Development fty and production fty is not available anymore (adidas stop the business with this fty)",
+    "answer": "In case there is no other production factory in place, the newly added T1 must take the orders immediately and cannot be delayed. This is the same scenario which is in place today."
+  },
+  {
+    "question": "Hi, would like to check if LO doesn't have any access of Article grouping history... as we cannot view any data after we group the article.",
+    "answer": "yes everybody will have access to history but the functionality is still under testing- means it could be that there are open issues that are currently being fixed."
+  },
+  {
+    "question": "Material level numbers will be seen as layer numbers on DBOM, is that correct?",
+    "answer": "Yes, this is correct - in future we will have only 2 different layers. Layer 1 only once and the possibility to add several Layer 2 to describe colors or executions for Material, Trims or Artworks."
+  },
+  {
+    "question": "If the price for the material is not available in the system in current season, then which price of material BOM will capture for that carryied forward season. Please advise",
+    "answer": "When model gets carried over to a new season, the material is carried over as well irrespective of whether it is available in toolbox or not. The prices however, depending on whether, it is available for the new effectivity dates, will be automatically shown from MLM. If there are override values entered (ex: Price OVR, CIF % OVR, Loss % OVR), they are carried over automatically. They will be removed only when someone updates the material for that part in the CO season."
+  },
+  {
+    "question": "Factory BOM manual Page#4, says CCDA to update yield on A-fty while T1 use to update yield in BOMs therefore could you please check and be more specifically mention in manual for those cases where CCDA use to update yield, thank you!",
+    "answer": "CC-Dev has the right to edit the BOM, but will update the BOM yield at P1/P2 comment phase for A-FTY only to calculate P1/P2BE CS"
+  },
+  {
+    "question": "Need help to have clarity/explanation on this point, \"Does the BOM for non-carryover articles conform to the current and future lifecycles? Full check is not run if all articles are carryovers or dropped.\"",
+    "answer": "\"Does the BOM for non-carryover articles conform to the current and future lifecycles?\" means that only articles that are not carryovers are checked in the validation. The validation is done for rules for the current lifecycle and also looking to the future, for rules of the upcoming lifecycle states. \"Full check is not run if all articles are carryovers or dropped\" means that if every article in the model is either a carryover or is dropped, then the full check will not be run."
+  },
+  {
+    "question": "My understanding is that Fiber Text Position (Japan) & Remarks (Japan) can be updated even after BR. Could you please confirm that my understanding is correct?",
+    "answer": "Yes, and Label section attributes even dont require a BOM CR"
+  },
+  {
+    "question": "For Copy and paste function ,suggest to copy snap shot to live BOM for some costing attributes ,eg:yield and efficeince to live BOM. - From T1 Bowker *Use case is T2 names updates are quite often and these information remains the same most of the time, copy from snapshot will help to improve the fty BOM update efficiency.",
+    "answer": "Yes, this is the concept to utalize the Compare BOM screen for all the Copy & Paste uses cases we have open. You can even use it to copy full BOM or only some BOM Line items from moen model to the other . We consider all atttributes available today on Comapre BOM . Stay tuned"
+  },
+  {
+    "question": "I remember this is already in the futher ehancemet list but would like to share the voice from T1 again during their enduser training and proritize it - BOM header attributes can't show articles name directly unless you hover your mouse to that cell ,suggest to show article name as below, for friendly view and improve BOM update efficiency.",
+    "answer": "We have to consider all the different opinions and then see what is technical feasible once it will be prioritized"
+  },
+  {
+    "question": "Material search function is not yet it in CP but when transferred across, will it contain all functions like we currently have in PDM?",
+    "answer": "I don't think we can answer that right now. We will definitely use the experience we had with PDM to help decide how we want to be able to search, but we'll specify the search criteria in detail when we get to that point."
+  },
+  {
+    "question": "Is there a mass change possible in origo/CP as done in Flex with “Fill column” (as shown below). Or is a mass change only possible with drag and apply function in the product list?",
+    "answer": "Since Mass updates of BOMs is across Models this will be a PAPP function, which is right now not in scope"
+  },
+  {
+    "question": "In the BOM in CP “Process” and “Tooling and testing” part is part of the BOM. Will these 2 BOM part sections stay in Flex? Or is there any workaround for this till it is transferred to BOM?",
+    "answer": "Process is still part of the BOM in Creation Portal. Tooling & Testing will be handled in Creation Portal a different way, but it does not need to be entered in Flex.\nTooling is already now (with Go Live 1) handled on the cost sheet. This is mentioned in the Go Live I Costing training manuals in the Cost Sheet Edit manual on page 49."
+  },
+  {
+    "question": "Time shown on Testing server do not reflect Herzo time zone but is 2 hours late. Will this be correct on Production server",
+    "answer": "The server time is independent from the location of the user. It refelects th Production server time and is the same in all locations. Testing Server and Production server will use the same time zone"
+  },
+  {
+    "question": "Regarding the localized material, as showed on BOM a red star, before we had discussion in China, which team is responsible for evaluating which material can be local sourced, would like to check in creation portal what's the logic? same as PDM? which team is responsible for it?",
+    "answer": "We have not changed anything in terms of who decides whether a material is Local Sourcing Allowed or how it is entered in MLM. Creation Portal just receives the data from MLM."
+  },
+  {
+    "question": "Can we look back at versions of the BOM without snapshot?",
+    "answer": "No, you will need to create a snapshot and then view the snapshot to see historic information. There is no other versioning of the BOM."
+  },
+  {
+    "question": "Will origo enables the automatic calculation for primegreen primeblue directly?",
+    "answer": "We have begun discussing requirements for Sustainability, but we don't have enough details yet. After we have gone live with Go Live 2, we'll continue with this topic and we'll be sure to inform everyone of the future capabilities."
+  },
+  {
+    "question": "the thickness should be defined already after material selection, how come the thickness can be override and the material shows still released with any thickness? current DTR is test based on different thickness.\n_x000D_\nFor example: hulex mono plus reflective - it might be released with 0.5mm thickness, but rejected with 0.3mm thickness?dy after material selection, how come the thickness can be override and the material shows still released with\nany thickness? current DTR is test based on different thickness.",
+    "answer": "In some cases, we need to be able to select an Addition that overrides the initial information (like width) coming from MLM. It was only possible for us to open it up for all Additions or none for now. In cases where the DTR is based on a certain value, like with thickness, please do NOT select a new thickness in the BOM, but keep the one that comes with the material from MLM."
+  },
+  {
+    "question": "CIF auto filled function in BOM not working in CP Biz server.",
+    "answer": "This is really dependent on which T1-T2 combinations you are having in the BOM. Also today in Flex, not every combination is in the look-up table and will therefore automatically be filled. That is why we are having the OVR field in the new Digital BOM to enter the CIF if it´s not appearing automatically."
+  },
+  {
+    "question": "mold code (heel counter) and print code (woven label) as addition: are they must have to be selected? usually heel counter and woven label are created specifically with different MLM ID already to differentiate.",
+    "answer": "See BOM Writing Guideline #18 for details. They are not mandatory from a system perspective. Mold codes can still be selected as an Addition, but in Creation Portal, it just looks like a pulldown. You can find the Material Mold Code column in the Edit Leading BOM view. The same is for the Print Code."
+  },
+  {
+    "question": "Can you export the \"Compare Product\" list?",
+    "answer": "This is planned as improvement after Go-Live 2 but not yet in place"
+  },
+  {
+    "question": "How it’ll be the process to ask materials to be added to the seasonal toolbox? Nowadays we ask It by email or via Smartsheet.",
+    "answer": "The process compared to today has not changed. Please continue as currently."
+  }
+]
